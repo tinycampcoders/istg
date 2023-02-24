@@ -1,0 +1,6 @@
+/* Importar todos arquivos css aqui*/
+
+@import url(./utils/reset.css);
+@import url(./utils/root.css);
+@import url(./utils/layout.css);
+@import url(./utils/responsive.css);

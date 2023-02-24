@@ -1,0 +1,16 @@
+/* Responsividade */
+
+@media (max-width: 800px) {
+	header section.infoContent {
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	picture.infoContent__logo {
+		width: 30%;
+	}
+
+	nav.infoContent__menu {
+		width: 100%;
+	}
+}
