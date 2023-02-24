@@ -11,10 +11,12 @@
 <body>
   <header>
     <section class="infoContent">
-      <picture class="infoContent__logo"></picture>
+      <picture class="infoContent__logo">
+        <source srcset="./img/Mobile/logo-mobile.png" media="(max-width: 600px)">
+        <img src="./img/Desktop/desktop.png" alt="Logo do Instituto Ser Tão Grande">
+      </picture>
       <nav class="infoContent__menu">
         <ul>
-          <li><a href="#">Quem Somos</a></li>
           <li><a href="#">Parceiros</a></li>
           <li><a href="#">Governança</a></li>
           <li><a href="#">Como funciona</a></li>
@@ -23,8 +25,6 @@
       </nav>
     </section>
     <section class="bannerContent">
-      <h1>Processo seletivo 2023</h1>
-      <a href="#">Como funciona!</a>
     </section>
   </header>
 
@@ -95,49 +95,56 @@
         <h2>Como funciona?</h2>
         <p>Inscrevendo - se no Processo Seletivo Instituto Ser Tão Grande você concorre a bolsas de estudos, mentorias e cursos gratuitos!</p>
         <h3>Você terá acesso a: </h3>
-        <figure>
-          <img src="" alt="">
-          <figcaption>Programa de Mentoria em Diversas Áreas</figcaption>
-        </figure>
-        <figure>
-          <img src="" alt="">
-          <figcaption>Curso de Idiomas Gratuito para sua Formação</figcaption>
-        </figure>
-        <figure>
-          <img src="" alt="">
-          <figcaption>Bolsas de Estudo e Aulas Extras Contraturno</figcaption>
-        </figure>
+        <div class="card--content">
+          <img src="./img/icons/Mentoria.png" alt="Ícone de duas pessoas sincronizadas intelectualmente através da mentoria">
+          <p>Programa de Mentoria em Diversas Áreas</p>
+        </div>
+        <div class="card--content">
+          <img src="./img/icons/Linguas.png" alt="Ícone de uma lista em ingles ">
+          <p>Curso de Idiomas Gratuito para sua Formação</p>
+        </div>
+        <div class="card--content">
+          <img src="./img/icons/Bolsas.png" alt="Ícone de um troféu por se graduar ">
+          <p>Bolsas de Estudo e Aulas Extras Contraturno</p>
+        </div>
       </section>
       <section class="aboutWorks__modalities">
         <h2>É você quem escolhe como aproveitar esta oportunidade!</h2>
         <h3>Nossas modalidades:</h3>
         <section class="Modalities--academic">
           <h3>Modalidade apoio academico</h3>
-          <figure>
-            <figcaption>Jovens Aprovados continuam na escola pública da sua cidade</figcaption>
-          </figure>
-          <figure>
-            <figcaption>Mentoria Especializada na Área de Interesse</figcaption>
-          </figure>
-          <figure>
-            <figcaption>Bolsa Integral para Curso de Inglês</figcaption>
-          </figure>
-          <figure>
-            <figcaption>Curso contraturno de Desenvolvimento e Reforço</figcaption>
-          </figure>
+          <div class="card--content">
+            <img src="./img/icons/Escola-publica.png" alt="Ícone de um livro aberto com um lapís no meio">
+            <p>Jovens Aprovados continuam na escola pública da sua cidade</p>
+          </div>
+          <div class="card--content">
+            <img src="./img/icons/Mentoria-online.png" alt="Ícone de um notebook com um balão de texto saindo da tela.">
+            <p>Mentoria Especializada na Área de Interesse</p>
+          </div>
+          <div class="card--content">
+            <img src="./img/icons/Linguas-online.png" alt="Ícone de um notebook com um chapéu de graduando na parte superior da tela.">
+            <p>Bolsa Integral para Curso de Inglês</p>
+          </div>
+          <div class="card--content">
+            <img src="./img/icons/Reforco.png" alt="Ícone de uma pessoa com uma engrenagem em seus pensamentos">
+            <p>Curso contraturno de Desenvolvimento e Reforço</p>
+          </div>
         </section>
         <p>OU</p>
         <section class="Modalities--academic">
           <h3>Modalidade Escola Particular</h3>
-          <figure>
-            <figcaption>Jovens Aprovados Recebem Bolsa Integral na Rede Particular</figcaption>
-          </figure>
-          <figure>
-            <figcaption>Mentoria Especializada na Área de Interesse</figcaption>
-          </figure>
-          <figure>
-            <figcaption>Bolsa Integral para Curso de Inglês</figcaption>
-          </figure>
+          <div class="card--content">
+            <img src="./img/icons/Bolsa-integral.png" alt="Ícone de um troféu de ganhador">
+            <p>Jovens Aprovados Recebem Bolsa Integral na Rede Particular</p>
+          </div>
+          <div class="card--content">
+            <img src="./img/icons/Mentoria-Presencial.png" alt="Ícone de dois balões de texto">
+            <p>Mentoria Especializada na Área de Interesse</p>
+          </div>
+          <div class="card--content">
+            <img src="./img/icons/Linguas-presenciall.png" alt="Ícone de uma pessoa com uma lampada na mente falando.">
+            <p>Bolsa Integral para Curso de Inglês</p>
+          </div>
         </section>
       </section>
       <a href="#">Quero participar!</a>
@@ -151,18 +158,18 @@
         <h2>Como você pode ajuder?</h2>
         <div>
           <h3>Patrono da Educação</h3>
-          <p>Com um compromisso de 12 meses, os Mantenedores financiam os estudos de um Jovem Ser Tão Grande, com doações mensais a partir de R$550</p>
-          <a href="#">Doar!</a>
+          <p>Com um compromisso de 12 meses, os Mantenedores financiam os estudos de um Jovem Ser Tão Grande, com doações mensais <strong>a partir de R$550</strong></p>
+          <a href="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar">Doar</a>
         </div>
         <div>
           <h3>Doador Cerrado</h3>
-          <p>Os Doadores Cerrado contribuem mensalmente com a nossa causa com valores a partir de R$ 130. São extremamente importante para o nosso planejamento ao longo prazo.</p>
-          <a href="#">Doar</a>
+          <p>Os Doadores Cerrado contribuem mensalmente com a nossa causa com valores <strong>a partir de R$ 130</strong>. São extremamente importante para o nosso planejamento ao longo prazo.</p>
+          <a href="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar">Doar</a>
         </div>
         <div>
           <h3>Doador Pontual</h3>
-          <p>A qualquer momento você pode fazer uma doação pontual para o Instituto Ser Tao Grande. Toda a doação é muito importante para a continuidade do nosso trabalho.</p>
-          <a href="#">Doar</a>
+          <p>A qualquer momento você pode fazer <strong>uma doação pontual</strong> para o Instituto Ser Tao Grande. Toda a doação é muito importante para a continuidade do nosso trabalho.</p>
+          <a href="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar">Doar</a>
         </div>
       </section>
       <section class="aboutDonate__another">
@@ -182,13 +189,61 @@
     </article>
     <section class="aboutNumbers">
       <!-- Necessária melhor reformulação -->
-      <h2>Somos mais de:</h2>
-      <h3>+34 Jovens</h3>
-      <h3>+70 Mentores</h3>
+      <h2>Somos:</h2>
+      <h3>+40 Jovens</h3>
+      <h3>+50 Mentores</h3>
       <h3>+80 Voluntarios</h3>
     </section>
-
+    <!-- <section class="aboutQuestion"></section> video -->
   </main>
+
+  <article class="aboutGovernance">
+    <section class="aboutFinance">
+      <h2>Prestação de contas</h2>
+      <p>Desde sua concepção o Instituto Ser Tão Grande procura ter uma governança de alto nível prestando contas a todos envolvidos e interessados sobre evolução do projeto e no direcionamento dos recursos. Queremos criar algo sólido e duradouro para os jovens, doadores, voluntários e para a sociedade goiana. Para isso, ter transparência é fundamental. Seguiremos as melhores práticas nesse quesito.</p>
+      <p>Divulgamos um relatório trimestral com os principais acontecimentos ocorridos nos últimos meses e com os planos para os meses que virão. Adicionalmente, teremos um relatório anual com um nível mais detalhado de informações, inclusive demonstrações financeiras.</p>
+      <a href="https://drive.google.com/file/d/1ktUAN3JzfAdjT0soBkrPYnHVnGMlv3Q8/view?usp=sharing" target="_blank">Relátorio 2020</a>
+      <a href="https://drive.google.com/file/d/1JGKMfusWYr88parwOwgIsfUryFniAevN/view?usp=sharing" target="_blank">Relátorio 2021</a>
+    </section>
+    <section class="aboutTransparency">
+      <div class="box">
+        <h2>Transparência financeira</h2>
+        <p>O Instituto Ser Tão Grande é totalmente financiado a partir da doação de colaboradores (principalmente pessoas físicas) que compartilham dos nossos valores. Toda doação feita ao Instituto é 100% revertida em benefício dos jovens beneficiados. Devido à nossa estrutura totalmente gerida por trabalho voluntário, não temos nenhum custo administrativo.</p>
+        <p>Como contamos com uma rede de voluntários que conta com profissionais de excelência que atuam em diferentes frentes, conseguimos manter um alto nível de gestão e governança sem que isso acarrete em ônus ao projeto ou a seus apoiadores, tanto doadores quanto parceiros.</p>
+      </div>
+      <div class="box">
+        <h2>Colaborações corporativas</h2>
+        <p>O Instituto recebe apoios pontuais de pessoas jurídicas que acreditam no projeto. Estamos no processo de certificação e qualificação para oferecer incentivos fiscais para empresas interessadas em colaborarem com o ISTG.</p>
+      </div>
+    </section>
+  </article>
+  <section class="aboutPartner">
+    <img src="./img/parceiros/Century.png" alt="Century">
+    <img src="./img/parceiros/piva.png" alt="Piva">
+    <img src="./img/parceiros/cope.png" alt="Cope">
+    <img src="./img/parceiros/spaschiall.png" alt="São Paschoall">
+    <img src="./img/parceiros/mindset.png" alt="Instituto Mindset">
+    <img src="./img/parceiros/influx.png" alt="Influx English School">
+    <img src="./img/parceiros/learntofly.png" alt="Learn To Fly">
+    <img src="./img/parceiros/cna.png" alt="CNA">
+    <img src="./img/parceiros/descomplica.png" alt="Descomplica">
+    <img src="./img/parceiros/arena.png" alt="Arena Ensino Médio">
+    <img src="./img/parceiros/simbios.png" alt="Simbios Ensino Médio, Enem e vestibulares">
+    <img src="./img/parceiros/atrio1.png" alt="Colégio Atrio">
+    <img src="./img/parceiros/imagine.png" alt="Imagine">
+  </section>
+  <!-- <section class="aboutNotice"></section> -->
+
+  <footer>
+    <section class="socialMedia">
+      <ul>
+        <li><a href="https://www.facebook.com/institutosertaogrande">Facebook</a></li>
+        <li><a href="https://www.instagram.com/institutosertaogrande/">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/company/instituto-ser-tao-grande">Linkedin</a></li>
+      </ul>
+    </section>
+    <h2>Instituto Ser Tão Grande © Todos os direitos reservados 2019-2022</h2>
+  </footer>
 
 </body>
 
