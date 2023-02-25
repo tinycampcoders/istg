@@ -1,0 +1,12 @@
+/* Resetando o css */
+
+@import "./utils/reset.css";
+
+/* Importando componentes */
+
+@import "./utils/components.css";
+
+/* Layout */
+
+@import "./utils/header.css";
+@import "./utils/main.css";
