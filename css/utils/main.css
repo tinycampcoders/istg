@@ -1,5 +1,9 @@
 /* main */
 
+.bannerContent img {
+  width: 100%;
+}
+
 .aboutContent {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
