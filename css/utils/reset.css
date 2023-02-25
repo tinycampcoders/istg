@@ -3,23 +3,22 @@
 *::before,
 html,
 body {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  line-height: 1.4;
-  -webkit-font-smoothing: antialiased;
-
-  text-decoration: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	line-height: 1.4;
+	-webkit-font-smoothing: antialiased;
+	text-decoration: none;
 }
 
 ul,
 li {
-  list-style: none;
+	list-style: none;
 }
 
 img {
-  display: block;
-  max-width: 100%;
+	display: block;
+	max-width: 100%;
 }

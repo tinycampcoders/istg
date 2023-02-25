@@ -10,3 +10,5 @@
 
 @import "./utils/header.css";
 @import "./utils/main.css";
+
+@import "./utils/responsive.css";
