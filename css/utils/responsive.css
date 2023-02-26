@@ -1,7 +1,7 @@
 /* Responsividade */
 
 @media (max-width: 600px) {
-	header section.infoContent {
+  /* header section.infoContent {
 		flex-direction: column;
 		gap: 2rem;
 	}
@@ -16,5 +16,8 @@
 
 	.container {
 		padding: 0;
-	}
+	} */
+  .headerContent {
+    display: none;
+  }
 }
