@@ -63,7 +63,7 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 600px));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 650px));
   gap: 20px;
 }
 
@@ -78,7 +78,7 @@
   background-color: var(--color-tertiary);
   padding: 20px;
   width: 350px;
-  height: 200px;
+  height: 300px;
   flex-direction: column;
   text-align: center;
   border-radius: 26px;
