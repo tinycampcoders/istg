@@ -9,6 +9,7 @@
 .infoContent {
 	width: inherit;
 	height: inherit;
+	z-index: 10;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;

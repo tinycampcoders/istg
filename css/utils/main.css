@@ -1,114 +1,114 @@
 /* main */
 
 .bannerContent img {
-  width: 100%;
+	width: 100%;
 }
 
 .aboutContent {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 24px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 24px;
 }
 
 .aboutContent__image img {
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 16px;
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 16px;
 }
 
 .aboutContent__text {
-  align-self: center;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 20px;
-  text-align: justify;
-  background-color: #eee;
-  border-radius: 10px;
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 20px;
+	text-align: justify;
+	background-color: #eee;
+	border-radius: 10px;
 }
 
 .aboutPilars {
-  height: 100%;
-  min-height: 600px;
-  background-color: var(--color-secondary);
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
+	height: 100%;
+	min-height: 600px;
+	background-color: var(--color-secondary);
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
 }
 
 .aboutPilars h2 {
-  color: var(--color-primary);
-  align-self: flex-start;
+	color: var(--color-primary);
+	align-self: flex-start;
 }
 
 .aboutPilars--card {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 30px;
-  background-color: #009000;
-  border-radius: 26px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 30px;
+	background-color: #009000;
+	border-radius: 26px;
 }
 
 .aboutPilars--card:nth-of-type(2) {
-  background-color: #ffae00;
-  border-radius: 26px;
+	background-color: #ffae00;
+	border-radius: 26px;
 }
 
 .aboutPilars--card:last-of-type {
-  background-color: #0000ff;
-  border-radius: 26px;
+	background-color: #0000ff;
+	border-radius: 26px;
 }
 
 .aboutPilars--card h3 {
-  color: var(--color-primary);
+	color: var(--color-primary);
 }
 
 .aboutPilars--card p {
-  color: var(--color-primary);
-  text-align: justify;
+	color: var(--color-primary);
+	text-align: justify;
 }
 
 .aboutPrinciples--card {
-  flex-direction: column;
-  padding: 40px;
-  height: 300px;
-  border-radius: 26px;
-  text-align: center;
-  color: var(--color-secondary);
+	flex-direction: column;
+	padding: 40px;
+	height: 300px;
+	border-radius: 26px;
+	text-align: center;
+	color: var(--color-secondary);
 }
 
 .aboutPrinciples--card:nth-of-type(1) {
-  background-color: #ff6c0d;
+	background-color: #ff6c0d;
 }
 
 .aboutPrinciples--card:nth-of-type(2) {
-  background-color: #d59c4e;
+	background-color: #d59c4e;
 }
 
 .aboutPrinciples--card:nth-of-type(3) {
-  background-color: #00b6e4;
+	background-color: #00b6e4;
 }
 
 .aboutPrinciples--card:nth-of-type(4) {
-  background-color: #ffce00;
+	background-color: #ffce00;
 }
 
 .aboutPrinciples--card:nth-of-type(5) {
-  background-color: #ff4432;
+	background-color: #ff4432;
 }
 
 .aboutPrinciples--card:nth-of-type(6) {
-  background-color: #00aba0;
+	background-color: #00aba0;
 }
 
 .aboutWorks {
-  background-color: var(--color-purple);
-  display: flex;
-  flex-direction: column;
+	background-color: var(--color-purple);
+	display: flex;
+	flex-direction: column;
 }
 
 .aboutWorks__intro,
@@ -116,32 +116,144 @@
 .Modalities--academic,
 .aboutDonate,
 .aboutCite {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 }
 
 .aboutWorks__modalities .title {
-  align-self: center;
-  font-weight: var(--font-b);
+	align-self: center;
+	font-weight: var(--font-b);
 }
 
 .aboutCite {
-  align-items: center;
-  justify-content: center;
-  min-height: 600px;
-  background-image: url("../../img/Desktop/cite.jpg");
-  background-position: center;
-  background-size: cover;
+	align-items: center;
+	justify-content: center;
+	min-height: 600px;
+	background-image: url("../../img/Desktop/cite.jpg");
+	background-position: center;
+	background-size: cover;
 }
 
 .aboutCite__info {
-  width: 84ch;
-  padding: 20px;
-  text-align: justify;
-  background-color: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(16px);
-  border-radius: 26px;
-  padding: 40px;
+	width: 84ch;
+	padding: 20px;
+	text-align: justify;
+	background-color: rgba(255, 255, 255, 0.3);
+	backdrop-filter: blur(16px);
+	border-radius: 26px;
+	padding: 40px;
+}
+
+.aboutDonate {
+	width: 100%;
+	transform-style: preserve-3d;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.aboutDonate input[type="radio"] {
+	display: none;
+}
+
+.cards--donates {
+	width: 80%;
+	margin-bottom: 20rem;
+}
+
+.card--donate {
+	max-width: 30%;
+	min-height: 320px;
+	margin: auto;
+	padding: 16px;
+	position: absolute;
+	left: 0;
+	right: 0;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 2rem;
+
+	border-radius: 23px;
+	outline: 2px solid;
+
+	background-color: #f9f1f9;
+	color: var(--color-secondary);
+	transition: transform 0.4s ease;
+	cursor: pointer;
+}
+
+.card--donate .navigation {
+	width: 100%;
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.card--donate .navigation a {
+	width: 42px;
+}
+
+.card--donate h3 {
+	font-size: min(1.5rem, 4vw);
+	font-weight: 600;
+}
+
+.card--donate p {
+	font-size: min(1rem, 4vw);
+	font-weight: 400;
+}
+
+/* stage 4 */
+#item-1:checked ~ .cards--donates #help-4,
+#item-1:checked ~ .cards--donates #help-3,
+#item-2:checked ~ .cards--donates #help-5,
+#item-2:checked ~ .cards--donates #help-4,
+#item-3:checked ~ .cards--donates #help-1,
+#item-3:checked ~ .cards--donates #help-5,
+#item-4:checked ~ .cards--donates #help-1,
+#item-4:checked ~ .cards--donates #help-2,
+#item-5:checked ~ .cards--donates #help-2,
+#item-5:checked ~ .cards--donates #help-3 {
+	visibility: hidden;
+}
+
+/* Stage 3 */
+#item-1:checked ~ .cards--donates #help-5,
+#item-2:checked ~ .cards--donates #help-1,
+#item-3:checked ~ .cards--donates #help-2,
+#item-4:checked ~ .cards--donates #help-3,
+#item-5:checked ~ .cards--donates #help-4 {
+	transform: translatex(-40%) scale(0.8);
+	opacity: 0.4;
+	z-index: 0;
+}
+
+/* Stage 2 */
+#item-1:checked ~ .cards--donates #help-2,
+#item-2:checked ~ .cards--donates #help-3,
+#item-3:checked ~ .cards--donates #help-4,
+#item-4:checked ~ .cards--donates #help-5,
+#item-5:checked ~ .cards--donates #help-1 {
+	transform: translatex(40%) scale(0.8);
+	opacity: 0.4;
+	z-index: 0;
+}
+
+/* Stage 1 */
+#item-1:checked ~ .cards--donates #help-1,
+#item-2:checked ~ .cards--donates #help-2,
+#item-3:checked ~ .cards--donates #help-3,
+#item-4:checked ~ .cards--donates #help-4,
+#item-5:checked ~ .cards--donates #help-5 {
+	transform: translatex(0) scale(1);
+	opacity: 1;
+	z-index: 1;
 }
