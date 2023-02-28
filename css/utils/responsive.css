@@ -23,4 +23,16 @@
   .card-content {
     flex-direction: column;
   }
+  .container {
+    padding: 20px 10px;
+  }
+
+  .aboutContent__image img {
+    height: 250px;
+  }
+
+  .aboutCite__info {
+    width: initial;
+    padding: 20px;
+  }
 }

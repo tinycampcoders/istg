@@ -40,11 +40,11 @@
 		</section>
 
 		<article class="aboutContent container">
-			<picture class="aboutContent__image">
+			<picture class="aboutContent__image" data-aos="fade-right" data-aos-duration="1500">
 				<img src="./img/Desktop/quemsomos.jpg" alt="Estante cor marrom no estilo rustica amadeirada cheia de livros" />
 			</picture>
-			<section class="aboutContent__text">
-				<h1 class="title">Quem somos</h1>
+			<section class="aboutContent__text" data-aos="fade-left" data-aos-duration="1500">
+				<h2 class="title">Quem somos</h2>
 				<p>
 					Instituto Ser Tão Grande é uma entidade privada sem fins lucrativos
 					que acredita na valorização da educação como forma de promover a
@@ -70,9 +70,9 @@
 		</article>
 
 		<section class="aboutPilars container">
-			<h2 class="title">Nossos pilares</h2>
+			<h2 class="title" data-aos="fade-right" data-aos-duration="1500">Nossos pilares</h2>
 			<div class="card-content">
-				<div class="aboutPilars--card">
+				<div class="aboutPilars--card" data-aos="fade-up" data-aos-duration="1500">
 					<h3 class="title-secondary">Apoio Acadêmico</h3>
 					<p>
 						Nosso apoio acadêmico acontece de duas formas: bolsa no ensino
@@ -82,7 +82,7 @@
 						acesso a aulas de inglês também no contraturno.
 					</p>
 				</div>
-				<div class="aboutPilars--card">
+				<div class="aboutPilars--card" data-aos="fade-down" data-aos-duration="1500">
 					<h3 class="title-secondary">Mentorias</h3>
 					<p>
 						O mentor acompanha o desempenho do estudante, por meio de suporte
@@ -92,7 +92,7 @@
 						referência mundial, como USP, Harvard e Columbia.
 					</p>
 				</div>
-				<div class="aboutPilars--card">
+				<div class="aboutPilars--card" data-aos="fade-up" data-aos-duration="1500">
 					<h3 class="title-secondary">Rede de contatos</h3>
 					<p>
 						Os estudantes vão participar de eventos e encontros, nos quais
@@ -229,12 +229,12 @@
 			<a class="globalButton" href="#">Quero participar!</a>
 		</article>
 
-		<article class="aboutCite">
+		<article class="aboutCite container">
 			<section class="aboutCite__info">
-				<h2 class="title">
+				<h1 class="title">
 					O que separa uma mente brilhante do sucesso é a falta de
 					oportunidade.
-				</h2>
+				</h1>
 				<p>
 					Sua doação nos permite diminuir distâncias educacionais entre jovens
 					de baixa renda e estudantes com mesmo potencial acadêmico, mas sem
@@ -305,9 +305,9 @@
 		<section class="aboutNumbers container">
 			<!-- Necessária melhor reformulação -->
 			<h2>Somos:</h2>
-			<h3>+40 Jovens</h3>
-			<h3>+50 Mentores</h3>
-			<h3>+80 Voluntarios</h3>
+			<h3>+<span class="contagem">40</span>Jovens</h3>
+			<h3>+<span class=" contagem">50</span> Mentores</h3>
+			<h3>+<span class="contagem">80</span> Voluntarios</h3>
 		</section>
 		<!-- <section class="aboutQuestion"></section> video -->
 	</main>
@@ -396,6 +396,13 @@
 		</section>
 		<h2>Instituto Ser Tão Grande © Todos os direitos reservados 2019-2022</h2>
 	</footer>
+
+	<script src="./scripts/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="./scripts/scripts.js"></script>
 </body>
 
 </html>

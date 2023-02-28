@@ -12,3 +12,7 @@
 @import "./utils/main.css";
 
 @import "./utils/responsive.css";
+
+/* Import Animations */
+
+@import "./utils/aos.css";
