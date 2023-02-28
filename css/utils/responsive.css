@@ -1,7 +1,7 @@
 /* Responsividade */
 
 @media (max-width: 768px) {
-  /* header section.infoContent {
+	/* header section.infoContent {
 		flex-direction: column;
 		gap: 2rem;
 	}
@@ -17,22 +17,22 @@
 	.container {
 		padding: 0;
 	} */
-  .headerContent {
-    display: none;
-  }
-  .card-content {
-    flex-direction: column;
-  }
-  .container {
-    padding: 20px 10px;
-  }
+	.headerContent {
+		display: none;
+	}
+	.card-content {
+		flex-direction: column;
+	}
+	.container {
+		padding: 20px 10px;
+	}
 
-  .aboutContent__image img {
-    height: 250px;
-  }
+	.aboutContent__image img {
+		height: 250px;
+	}
 
-  .aboutCite__info {
-    width: initial;
-    padding: 20px;
-  }
+	.aboutCite__info {
+		width: initial;
+		padding: 20px;
+	}
 }

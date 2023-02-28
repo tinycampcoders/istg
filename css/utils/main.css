@@ -160,12 +160,12 @@
 }
 
 .cards--donates {
-	width: 80%;
+	width: 30vw;
 	margin-bottom: 20rem;
 }
 
 .card--donate {
-	max-width: 30%;
+	width: inherit;
 	min-height: 320px;
 	margin: auto;
 	padding: 16px;
@@ -182,7 +182,7 @@
 	border-radius: 23px;
 	outline: 2px solid;
 
-	background-color: #f9f1f9;
+	background-color: #f8e8f8;
 	color: var(--color-secondary);
 	transition: transform 0.4s ease;
 	cursor: pointer;
@@ -211,7 +211,7 @@
 	font-weight: 400;
 }
 
-/* stage 4 */
+/* Stage 4 */
 #item-1:checked ~ .cards--donates #help-4,
 #item-1:checked ~ .cards--donates #help-3,
 #item-2:checked ~ .cards--donates #help-5,
@@ -256,4 +256,61 @@
 	transform: translatex(0) scale(1);
 	opacity: 1;
 	z-index: 1;
+	cursor: auto;
+}
+
+.aboutNumbers h2 {
+	width: 80%;
+}
+
+.aboutNumbers {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.aboutNumbers__content {
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+.numbers {
+	text-align: center;
+	padding: 16px;
+	flex: 1;
+}
+
+.contagem {
+	font-size: min(4rem, 8vw);
+}
+
+.contagem::before {
+	content: "+";
+}
+
+.numbers h3 {
+	font-size: min(2.5rem, 5vw);
+	font-weight: 400;
+}
+
+.aboutPartner {
+	width: 100%;
+	padding: 2rem 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	column-gap: 2rem;
+
+	background-color: rgba(25, 127, 195, 0.18);
+}
+
+.aboutPartner img {
+	width: 150px;
 }
