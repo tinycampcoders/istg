@@ -1,114 +1,114 @@
 /* main */
 
 .bannerContent img {
-	width: 100%;
+  width: 100%;
 }
 
 .aboutContent {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
 }
 
 .aboutContent__image img {
-	width: 100%;
-	height: 500px;
-	object-fit: cover;
-	object-position: center;
-	border-radius: 16px;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 16px;
 }
 
 .aboutContent__text {
-	align-self: center;
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
-	padding: 20px;
-	text-align: justify;
-	background-color: #eee;
-	border-radius: 10px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  text-align: justify;
+  background-color: #eee;
+  border-radius: 10px;
 }
 
 .aboutPilars {
-	height: 100%;
-	min-height: 600px;
-	background-color: var(--color-secondary);
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	flex-direction: column;
+  height: 100%;
+  min-height: 600px;
+  background-color: var(--color-secondary);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .aboutPilars h2 {
-	color: var(--color-primary);
-	align-self: flex-start;
+  color: var(--color-primary);
+  align-self: flex-start;
 }
 
 .aboutPilars--card {
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
-	padding: 30px;
-	background-color: #009000;
-	border-radius: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  background-color: #009000;
+  border-radius: 26px;
 }
 
 .aboutPilars--card:nth-of-type(2) {
-	background-color: #ffae00;
-	border-radius: 26px;
+  background-color: #ffae00;
+  border-radius: 26px;
 }
 
 .aboutPilars--card:last-of-type {
-	background-color: #0000ff;
-	border-radius: 26px;
+  background-color: #0000ff;
+  border-radius: 26px;
 }
 
 .aboutPilars--card h3 {
-	color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .aboutPilars--card p {
-	color: var(--color-primary);
-	text-align: justify;
+  color: var(--color-primary);
+  text-align: justify;
 }
 
 .aboutPrinciples--card {
-	flex-direction: column;
-	padding: 40px;
-	height: 300px;
-	border-radius: 26px;
-	text-align: center;
-	color: var(--color-secondary);
+  flex-direction: column;
+  padding: 40px;
+  height: 300px;
+  border-radius: 26px;
+  text-align: center;
+  color: var(--color-secondary);
 }
 
 .aboutPrinciples--card:nth-of-type(1) {
-	background-color: #ff6c0d;
+  background-color: #ff6c0d;
 }
 
 .aboutPrinciples--card:nth-of-type(2) {
-	background-color: #d59c4e;
+  background-color: #d59c4e;
 }
 
 .aboutPrinciples--card:nth-of-type(3) {
-	background-color: #00b6e4;
+  background-color: #00b6e4;
 }
 
 .aboutPrinciples--card:nth-of-type(4) {
-	background-color: #ffce00;
+  background-color: #ffce00;
 }
 
 .aboutPrinciples--card:nth-of-type(5) {
-	background-color: #ff4432;
+  background-color: #ff4432;
 }
 
 .aboutPrinciples--card:nth-of-type(6) {
-	background-color: #00aba0;
+  background-color: #00aba0;
 }
 
 .aboutWorks {
-	background-color: var(--color-purple);
-	display: flex;
-	flex-direction: column;
+  background-color: var(--color-purple);
+  display: flex;
+  flex-direction: column;
 }
 
 .aboutWorks__intro,
@@ -116,99 +116,99 @@
 .Modalities--academic,
 .aboutDonate,
 .aboutCite {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .aboutWorks__modalities .title {
-	align-self: center;
-	font-weight: var(--font-b);
+  align-self: center;
+  font-weight: var(--font-b);
 }
 
 .aboutCite {
-	align-items: center;
-	justify-content: center;
-	min-height: 600px;
-	background-image: url("../../img/Desktop/cite.jpg");
-	background-position: center;
-	background-size: cover;
+  align-items: center;
+  justify-content: center;
+  min-height: 600px;
+  background-image: url("../../img/Desktop/cite.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .aboutCite__info {
-	width: 84ch;
-	padding: 20px;
-	text-align: justify;
-	background-color: rgba(255, 255, 255, 0.3);
-	backdrop-filter: blur(16px);
-	border-radius: 26px;
-	padding: 40px;
+  width: 84ch;
+  padding: 20px;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(16px);
+  border-radius: 26px;
+  padding: 40px;
 }
 
 .aboutDonate {
-	width: 100%;
-	transform-style: preserve-3d;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
+  width: 100%;
+  transform-style: preserve-3d;
+}
+
+.aboutDonate h2 {
+  align-self: flex-start;
 }
 
 .aboutDonate input[type="radio"] {
-	display: none;
+  display: none;
 }
 
 .cards--donates {
-	width: 30vw;
-	margin-bottom: 20rem;
+  width: 50vw;
+  margin-bottom: 15rem;
 }
 
 .card--donate {
-	width: inherit;
-	min-height: 320px;
-	margin: auto;
-	padding: 16px;
-	position: absolute;
-	left: 0;
-	right: 0;
+  width: inherit;
+  min-height: 320px;
+  margin: auto;
+  padding: 16px;
+  position: absolute;
+  left: 0;
+  right: 0;
 
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
-	gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
 
-	border-radius: 23px;
-	outline: 2px solid;
+  border-radius: 23px;
+  outline: 2px solid;
 
-	background-color: #f8e8f8;
-	color: var(--color-secondary);
-	transition: transform 0.4s ease;
-	cursor: pointer;
+  background-color: #f8e8f8;
+  color: var(--color-secondary);
+  transition: transform 0.4s ease;
+  cursor: pointer;
 }
 
 .card--donate .navigation {
-	width: 100%;
-	flex: 1;
-	display: flex;
-	flex-direction: row;
-	align-items: flex-end;
-	justify-content: flex-end;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .card--donate .navigation a {
-	width: 42px;
+  width: 42px;
 }
 
 .card--donate h3 {
-	font-size: min(1.5rem, 4vw);
-	font-weight: 600;
+  font-size: min(1.5rem, 4vw);
+  font-weight: 600;
 }
 
 .card--donate p {
-	font-size: min(1rem, 4vw);
-	font-weight: 400;
+  font-size: min(1rem, 4vw);
+  font-weight: 400;
 }
 
 /* Stage 4 */
@@ -222,7 +222,7 @@
 #item-4:checked ~ .cards--donates #help-2,
 #item-5:checked ~ .cards--donates #help-2,
 #item-5:checked ~ .cards--donates #help-3 {
-	visibility: hidden;
+  visibility: hidden;
 }
 
 /* Stage 3 */
@@ -231,9 +231,9 @@
 #item-3:checked ~ .cards--donates #help-2,
 #item-4:checked ~ .cards--donates #help-3,
 #item-5:checked ~ .cards--donates #help-4 {
-	transform: translatex(-40%) scale(0.8);
-	opacity: 0.4;
-	z-index: 0;
+  transform: translatex(-40%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
 }
 
 /* Stage 2 */
@@ -242,9 +242,9 @@
 #item-3:checked ~ .cards--donates #help-4,
 #item-4:checked ~ .cards--donates #help-5,
 #item-5:checked ~ .cards--donates #help-1 {
-	transform: translatex(40%) scale(0.8);
-	opacity: 0.4;
-	z-index: 0;
+  transform: translatex(40%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
 }
 
 /* Stage 1 */
@@ -253,64 +253,68 @@
 #item-3:checked ~ .cards--donates #help-3,
 #item-4:checked ~ .cards--donates #help-4,
 #item-5:checked ~ .cards--donates #help-5 {
-	transform: translatex(0) scale(1);
-	opacity: 1;
-	z-index: 1;
-	cursor: auto;
+  transform: translatex(0) scale(1);
+  opacity: 1;
+  z-index: 1;
+  cursor: auto;
 }
 
 .aboutNumbers h2 {
-	width: 80%;
+  align-self: flex-start;
 }
 
 .aboutNumbers {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
 }
 
 .aboutNumbers__content {
-	width: 80%;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	gap: 1rem;
-	flex-wrap: wrap;
+  width: 66%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .numbers {
-	text-align: center;
-	padding: 16px;
-	flex: 1;
+  text-align: center;
+  padding: 10px 10px;
+  flex: 1;
+  background-color: rgba(0, 0, 245, 0.4);
+  backdrop-filter: blur(16px);
+  border-bottom-left-radius: 26px;
+  border-top-right-radius: 26px;
 }
 
 .contagem {
-	font-size: min(4rem, 8vw);
+  font-size: min(4rem, 8vw);
 }
 
 .contagem::before {
-	content: "+";
+  content: "+";
 }
 
 .numbers h3 {
-	font-size: min(2.5rem, 5vw);
-	font-weight: 400;
+  font-size: min(2.5rem, 5vw);
+  font-weight: 400;
 }
 
 .aboutPartner {
-	width: 100%;
-	padding: 2rem 0;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	column-gap: 2rem;
-
-	background-color: rgba(25, 127, 195, 0.18);
+  width: 100%;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+  background-color: rgba(25, 127, 195, 0.18);
 }
 
 .aboutPartner img {
-	width: 150px;
+  width: 150px;
 }
