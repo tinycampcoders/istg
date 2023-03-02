@@ -1,0 +1,97 @@
+.modal--wrapper {
+	background-color: #000000cc;
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal__content {
+	min-width: 45%;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 23px;
+	background-color: var(--color-primary);
+}
+
+.modal__content form {
+	min-width: 60%;
+	margin: 1.5rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.modal__content figure {
+	padding: 1rem 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+.modal__content figure figcaption {
+	font-size: min(2rem, 5.2vw);
+	font-weight: 600;
+	color: #494949;
+}
+
+.modal__content figure p {
+	font-size: min(1.1rem, 3.3vw);
+	font-weight: 400;
+	color: #494949;
+	text-align: center;
+}
+
+.modal__content figure img {
+	width: 40%;
+}
+
+.modal--top {
+	align-self: flex-end;
+	margin: 12px;
+}
+
+.closeModal {
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.modal--top .iconClose {
+	width: 16px;
+}
+
+.group--field-btn {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+.group--field-btn input {
+	flex: 1;
+	padding: 16px 10px;
+	border: 2px solid #f0c419;
+	border-radius: 18px;
+}
+
+.group--field-btn input:focus {
+	outline: none;
+}
+
+.group--field-btn button {
+	background-color: #f0c419;
+	padding: 16px;
+	border-radius: 12px;
+	cursor: pointer;
+	font-size: 1rem;
+}
