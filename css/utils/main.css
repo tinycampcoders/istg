@@ -303,6 +303,25 @@
   font-weight: 400;
 }
 
+.aboutFinance {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 100%;
+  min-width: 280px;
+  max-width: 400px;
+  background-color: #bbb;
+  text-align: justify;
+  border-radius: 26px;
+  gap: 20px;
+  padding: 20px;
+}
+
 .aboutPartner {
   width: 100%;
   padding: 2rem 0;
@@ -317,4 +336,81 @@
 
 .aboutPartner img {
   width: 150px;
+}
+
+.slider {
+  width: 100%;
+  margin: 50px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+}
+
+.slick-slide {
+  transition: all ease-in-out 0.3s;
+  opacity: 0.2;
+}
+
+.slick-active {
+  opacity: 0.5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+.aboutNotice {
+  background-color: #000;
+}
+
+.aboutNotice .title {
+  color: #ffff00;
+  padding-bottom: 0;
+}
+
+.aboutNotice--content {
+  height: 400px;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #ccc;
+  color: black;
+  border-radius: 26px;
+  justify-content: space-around;
+}
+
+.aboutNotice--content .globalButton {
+  align-self: flex-start;
+}
+
+.aboutEnd {
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: #000;
+  color: #fff;
+}
+
+.aboutEnd--socialmedia ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+
+.socialmedia--icon {
+  width: 50px;
+  height: 50px;
 }

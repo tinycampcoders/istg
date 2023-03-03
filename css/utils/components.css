@@ -34,10 +34,15 @@
   text-transform: var(--text-title);
   background-color: #ffa500;
   margin: 20px;
+  transition: 1s;
+}
+
+.globalButton:hover {
+  background-color: var(--color-button-hover);
 }
 
 .container {
-  padding: 40px;
+  padding: 60px 40px;
   gap: 20px;
   align-items: center;
 }
