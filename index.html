@@ -3,14 +3,13 @@
 
 <head>
 	<meta charset="UTF-8" />
-
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="./css/global.css" />
 	<title>ISTG | Bolsas de estudos e monitoria escolar</title>
@@ -20,33 +19,30 @@
 	<header class="headerContent">
 		<section class="infoContent">
 			<picture class="infoContent__logo">
-				<source srcset="./img/Mobile/logo-mobile.png" media="(max-width: 768px)" />
-				<img src="./img/Desktop/logo-desktop.png" alt="Logo do Instituto Ser Tão Grande" />
+				<source srcset="./img/Mobile/logo-mobile.png" media="(max-width: 768px)"><img src=" ./img/Desktop/logo-desktop.png" alt="Instituto Ser Tão Grande" /></a>
 			</picture>
 
-			<nav class="infoContent__menu">
+			<nav class="infoContent__menu" aria-label="Menu de Navegação">
 				<ul>
 					<li class=""><a href="#partner">Parceiros</a></li>
 					<li><a href="#governance">Governança</a></li>
 					<li><a href="#howitworks">Como funciona</a></li>
-					<li>
-						<a href="#donation" id="buttonLink">Apoiar</a>
-					</li>
+					<li><a href="#donation" id="buttonLink">Apoiar</a></li>
 				</ul>
 			</nav>
 		</section>
 	</header>
 
-	<section class="bannerContent">
-		<img src="./img/Desktop/bg.png" alt="Transformando vidas através da educação" />
+	<section class="bannerContent" aria-label="Banner de nossas campanhas">
+		<img role="banner" src="./img/Desktop/bg.png" alt="Transformando vidas através da educação" />
 	</section>
 
-	<article class="aboutContent container">
+	<article class="aboutContent container" aria-labelledby="quem-somos">
 		<picture class="aboutContent__image" data-aos="fade-right" data-aos-duration="1500">
 			<img src="./img/Desktop/quemsomos.jpg" alt="Estante cor marrom no estilo rustica amadeirada cheia de livros" />
 		</picture>
-		<section class="aboutContent__text" data-aos="fade-left" data-aos-duration="1500">
-			<h2 class="title">Quem somos</h2>
+		<section class="aboutContent__text" data-aos="fade-left" data-aos-duration="2000">
+			<h2 id="quem-somos" class="title">Quem somos</h2>
 			<p>
 				Instituto Ser Tão Grande é uma entidade privada sem fins lucrativos
 				que acredita na valorização da educação como forma de promover a
@@ -71,7 +67,7 @@
 		</section>
 	</article>
 
-	<section class="aboutPilars container">
+	<section class="aboutPilars container" aria-label="Nossos Pílares">
 		<h2 class="title" data-aos="fade-right" data-aos-duration="1500">
 			Nossos pilares
 		</h2>
@@ -110,10 +106,10 @@
 		</div>
 	</section>
 
-	<section class="aboutPrinciples container">
-		<h2 class="title">Princípios</h2>
+	<section class="aboutPrinciples container" aria-label="Princípios">
+		<h2 class="title" data-aos="fade-right" data-aos-duration="1500">Princípios</h2>
 		<section class="grid-layout">
-			<div class="card-content aboutPrinciples--card">
+			<div class="card-content aboutPrinciples--card" data-aos="fade-right" data-aos-duration="1500">
 				<div class="icon">
 					<img src="./img/icons/Comunidade.svg" alt="Ícone de duas pessoas uma ao lado da outra" />
 				</div>
@@ -124,7 +120,7 @@
 				</p>
 			</div>
 
-			<div class="card-content aboutPrinciples--card">
+			<div class="card-content aboutPrinciples--card" data-aos="fade-left" data-aos-duration="1650">
 				<div class="icon">
 					<img src="./img/icons/Coragem.svg" alt="Ícone de um megafone" />
 				</div>
@@ -132,7 +128,7 @@
 				<p>Superamos a inércia todos os dias em prol do altruísmo</p>
 			</div>
 
-			<div class="card-content aboutPrinciples--card">
+			<div class="card-content aboutPrinciples--card" data-aos="fade-right" data-aos-duration="1800">
 				<div class="icon">
 					<img src="./img/icons/Etica.svg" alt="Ícone de um balão de texto" />
 				</div>
@@ -140,7 +136,7 @@
 				<p>Agimos de maneira íntegra e coerente com nossos princípios</p>
 			</div>
 
-			<div class="card-content aboutPrinciples--card">
+			<div class="card-content aboutPrinciples--card" data-aos="fade-left" data-aos-duration="1950">
 				<div class="icon">
 					<img src="./img/icons/Generosidade.svg" alt="Ícone de um coração" />
 				</div>
@@ -151,7 +147,7 @@
 				</p>
 			</div>
 
-			<div class="card-content aboutPrinciples--card">
+			<div class="card-content aboutPrinciples--card" data-aos="fade-right" data-aos-duration="2100">
 				<div class="icon">
 					<img src="./img/icons/Garra.svg" alt="Ícone de um chapeu de formatura" />
 				</div>
@@ -162,7 +158,7 @@
 				</p>
 			</div>
 
-			<div class="card-content aboutPrinciples--card">
+			<div class="card-content aboutPrinciples--card" data-aos="fade-left" data-aos-duration="2250">
 				<div class="icon">
 					<img src="./img/icons/Qualidade.svg" alt="Ícone de um foguete decolando" />
 				</div>
@@ -178,28 +174,28 @@
 	<main>
 
 
-		<article class="aboutWorks container" id="howitworks">
+		<article class="aboutWorks container" id="howitworks" aria-label="Como-funciona?">
 			<section class="aboutWorks__intro">
-				<h2 class="title title-secondar">Como funciona?</h2>
-				<p>
+				<h2 class="title title-secondar" data-aos="fade-right" data-aos-duration="1500">Como funciona?</h2>
+				<p data-aos="fade-right" data-aos-duration="1650">
 					Inscrevendo - se no Processo Seletivo Instituto Ser Tão Grande você
 					concorre a bolsas de estudos, mentorias e cursos gratuitos!
 				</p>
-				<h3 class="title-secondary">Você terá acesso a:</h3>
+				<h3 id="acesso" class="title-secondary" data-aos="fade-right" data-aos-duration="1800">Você terá acesso a:</h3>
 				<section class="card-content card-wrapper">
-					<div class="card-content-inside card-content">
-						<div class="icon">
+					<div class="card-content-inside card-content" data-aos="fade-right" data-aos-duration="1950">
+						<div class=" icon">
 							<img src="./img/icons/Mentoria.png" alt="Ícone de duas pessoas sincronizadas intelectualmente através da mentoria" />
 						</div>
 						<p>Programa de Mentoria em Diversas Áreas</p>
 					</div>
-					<div class="card-content-inside card-content">
+					<div class="card-content-inside card-content" data-aos="fade-up" data-aos-duration="2100">
 						<div class="icon">
 							<img src="./img/icons/Linguas.png" alt="Ícone de uma lista em ingles " />
 						</div>
 						<p>Curso de Idiomas Gratuito para sua Formação</p>
 					</div>
-					<div class="card-content-inside card-content">
+					<div class="card-content-inside card-content" data-aos="fade-left" data-aos-duration="2250">
 						<div class="icon">
 							<img src="./img/icons/Bolsas.png" alt="Ícone de um troféu por se graduar " />
 						</div>
@@ -208,14 +204,14 @@
 				</section>
 			</section>
 			<section class="aboutWorks__modalities">
-				<h2 class="title">
+				<h2 class="title" data-aos="fade-right" data-aos-duration="1500">
 					É você quem escolhe como aproveitar esta oportunidade!
 				</h2>
-				<h3 class="title-secondary">Nossas modalidades:</h3>
+				<h3 class="title-secondary" data-aos="fade-right" data-aos-duration="1650">Nossas modalidades:</h3>
 				<section class="Modalities--academic">
-					<h4 class="title-tertiary">Modalidade apoio academico</h4>
+					<h4 class="title-tertiary" data-aos="fade-right" data-aos-duration="1800">Modalidade apoio academico</h4>
 					<section class="card-content card-wrapper">
-						<div class="card-content-inside card-content">
+						<div class="card-content-inside card-content" data-aos="fade-right" data-aos-duration="1950">
 							<div class="icon">
 								<img src="./img/icons/Escola-publica.png" alt="Ícone de um livro aberto com um lapís no meio" />
 							</div>
@@ -223,19 +219,19 @@
 								Jovens Aprovados continuam na escola pública da sua cidade
 							</p>
 						</div>
-						<div class="card-content-inside card-content">
+						<div class="card-content-inside card-content" data-aos="fade-up" data-aos-duration="2100">
 							<div class="icon">
 								<img src="./img/icons/Mentoria-online.png" alt="Ícone de um notebook com um balão de texto saindo da tela." />
 							</div>
 							<p>Mentoria Especializada na Área de Interesse</p>
 						</div>
-						<div class="card-content-inside card-content">
+						<div class="card-content-inside card-content" data-aos="fade-up" data-aos-duration="2450">
 							<div class="icon">
 								<img src="./img/icons/Linguas-online.png" alt="Ícone de um notebook com um chapéu de graduando na parte superior da tela." />
 							</div>
 							<p>Bolsa Integral para Curso de Inglês</p>
 						</div>
-						<div class="card-content-inside card-content">
+						<div class="card-content-inside card-content" data-aos="fade-left" data-aos-duration="2600">
 							<div class="icon">
 								<img src="./img/icons/Reforco.png" alt="Ícone de uma pessoa com uma engrenagem em seus pensamentos" />
 							</div>
@@ -244,9 +240,9 @@
 					</section>
 				</section>
 				<section class="Modalities--academic">
-					<h4 class="title-tertiary">Modalidade Escola Particular</h4>
+					<h4 class="title-tertiary" data-aos="fade-right" data-aos-duration="1500">Modalidade Escola Particular</h4>
 					<section class="card-content card-wrapper">
-						<div class="card-content-inside card-content">
+						<div class="card-content-inside card-content" data-aos="fade-right" data-aos-duration="1650">
 							<div class="icon">
 								<img src="./img/icons/Bolsa-integral.png" alt="Ícone de um troféu de ganhador" />
 							</div>
@@ -254,13 +250,13 @@
 								Jovens Aprovados Recebem Bolsa Integral na Rede Particular
 							</p>
 						</div>
-						<div class="card-content-inside card-content">
+						<div class="card-content-inside card-content" data-aos="fade-up" data-aos-duration="1800">
 							<div class="icon">
 								<img src="./img/icons/Mentoria-Presencial.png" alt="Ícone de dois balões de texto" />
 							</div>
 							<p>Mentoria Especializada na Área de Interesse</p>
 						</div>
-						<div class="card-content-inside card-content">
+						<div class="card-content-inside card-content" data-aos="fade-left" data-aos-duration="1950">
 							<div class="icon">
 								<img src="./img/icons/Linguas-presenciall.png" alt="Ícone de uma pessoa com uma lampada na mente falando." />
 							</div>
@@ -269,16 +265,16 @@
 					</section>
 				</section>
 			</section>
-			<a class="globalButton" href="#">Quero participar!</a>
+			<a class="globalButton" data-aos="fade-up" data-aos-duration="2200" href="#">Quero participar!</a>
 		</article>
 
-		<article class="aboutCite container">
-			<section class="aboutCite__info">
-				<h1 class="title">
+		<article class="aboutCite container" aria-labelledby="Nosso-lema" data-aos="fade-left" data-aos-duration="1500">
+			<section class=" aboutCite__info" data-aos="fade-right" data-aos-duration="2250">
+				<h1 class="title" id="Nosso-lema">
 					O que separa uma mente brilhante do sucesso é a falta de
 					oportunidade.
 				</h1>
-				<p id="donation">
+				<p>
 					Sua doação nos permite diminuir distâncias educacionais entre jovens
 					de baixa renda e estudantes com mesmo potencial acadêmico, mas sem
 					as mesmas oportunidades. Que tal mudar a vida de alguém hoje?
@@ -286,7 +282,7 @@
 			</section>
 		</article>
 
-		<section class="aboutDonate container" id="donation">
+		<section class="aboutDonate container" id="donation" aria-label="Como-ajudar" data-aos="fade-left" data-aos-duration="1950">
 			<h2 class="title title-secondar">Como você pode ajudar?</h2>
 
 			<input type="radio" name="slider" id="item-1" checked />
@@ -377,20 +373,20 @@
 			</div>
 		</section>
 
-		<section class="aboutNumbers container">
-			<h2 class="title title-secondar">Somos</h2>
+		<section class="aboutNumbers container" aria-label="Nossos números" data-aos="fade-left" data-aos-duration="1500">
+			<h2 class="title title-secondar" data-aos="fade-right" data-aos-duration="1800">Somos</h2>
 			<div class="aboutNumbers__content">
-				<div class="numbers">
+				<div class="numbers" data-aos="fade-right" data-aos-duration="1850">
 					<span class="contagem">40</span>
 					<h3>Jovens</h3>
 				</div>
 
-				<div class="numbers">
+				<div class="numbers" data-aos="fade-up" data-aos-duration="1860">
 					<span class="contagem">+50</span>
 					<h3>Mentores</h3>
 				</div>
 
-				<div class="numbers">
+				<div class="numbers" data-aos="fade-right" data-aos-duration="1870">
 					<span class="contagem">80</span>
 					<h3>Voluntários</h3>
 				</div>
@@ -399,7 +395,7 @@
 		<!-- <section class="aboutQuestion"></section> video -->
 	</main>
 
-	<div class="modal--wrapper">
+	<div class="modal--wrapper" aria-label="Inscreva - se em nossa newsletter">
 		<div class="modal__content">
 			<div class="modal--top">
 				<button class="closeModal">
@@ -416,7 +412,7 @@
 				</figure>
 
 				<div class="group--field-btn">
-					<input type="email" name="email" id="email" placeholder="Seu E-mail" />
+					<input type="email" name="email" id="email" placeholder="Seu E-mail">
 
 					<button>Inscrever-se</button>
 				</div>
@@ -424,10 +420,10 @@
 		</div>
 	</div>
 
-	<article class="aboutGovernance container" id="governance">
+	<article class="aboutGovernance container" id="governance" aria-label="Finanças">
 		<h2 class="title">Prestação de contas</h2>
-		<section class="aboutFinance">
-			<section class="box">
+		<section class="aboutFinance" aria-label="Explicando nossas finanças">
+			<section class=" box">
 				<p>
 					Desde sua concepção o Instituto Ser Tão Grande procura ter uma
 					governança de alto nível prestando contas a todos envolvidos e
@@ -446,8 +442,8 @@
 				<a class="globalButton" href="https://drive.google.com/file/d/1ktUAN3JzfAdjT0soBkrPYnHVnGMlv3Q8/view?usp=sharing" target="_blank">Relátorio 2020</a>
 				<a class="globalButton" href="https://drive.google.com/file/d/1JGKMfusWYr88parwOwgIsfUryFniAevN/view?usp=sharing" target="_blank">Relátorio 2021</a>
 			</section>
-			<div class="box">
-				<h2 class="title-tertiary">Transparência financeira</h2>
+			<section class="box" aria-labelledby="Transparência""">
+				<h2 id="Transparência" class="title-tertiary">Transparência financeira</h2>
 				<p>
 					O Instituto Ser Tão Grande é totalmente financiado a partir da
 					doação de colaboradores (principalmente pessoas físicas) que
@@ -463,20 +459,20 @@
 					acarrete em ônus ao projeto ou a seus apoiadores, tanto doadores
 					quanto parceiros.
 				</p>
-			</div>
-			<div class="box">
-				<h2 class="title-tertiary">Colaborações corporativas</h2>
+			</section>
+			<section class="box" aria-labelledby="Colaborações">
+				<h2 id="Colaborações" class="title-tertiary">Colaborações corporativas</h2>
 				<p>
 					O Instituto recebe apoios pontuais de pessoas jurídicas que
 					acreditam no projeto. Estamos no processo de certificação e
 					qualificação para oferecer incentivos fiscais para empresas
 					interessadas em colaborarem com o ISTG.
 				</p>
-			</div>
+			</section>
 		</section>
 	</article>
 
-	<section class="aboutPartner container" id="partner">
+	<section class="aboutPartner container" id="partner" aria-label="Nossos parceiros">
 		<img src="./img/parceiros/Century.png" alt="Century" />
 		<img src="./img/parceiros/piva.png" alt="Piva" />
 		<img src="./img/parceiros/cope.png" alt="Cope" />
@@ -493,7 +489,7 @@
 	</section>
 	<!-- <section class="aboutNotice"></section> -->
 
-	<section class="aboutNotice">
+	<section class="aboutNotice" aria-label="ISTGnaWeb">
 		<h2 class="title container">#ISTGnaWeb</h2>
 		<section class="aboutNotice--container container">
 			<div class="aboutNotice--content">
@@ -548,17 +544,17 @@
 		</section>
 	</section>
 
-	<footer class="aboutEnd">
+	<footer class="aboutEnd" aria-label="Nossas redes sociais">
 		<section class="aboutEnd--socialmedia">
 			<ul>
 				<li>
-					<a href="https://www.facebook.com/institutosertaogrande" target="_blank"><img src="./img/icons/facebook.svg" alt="Facebook"></a>
+					<a href="https://www.facebook.com/institutosertaogrande" target="_blank"><img src="./img/icons/facebook.svg" alt="Facebook">Facebook</a>
 				</li>
 				<li>
-					<a href="https://www.instagram.com/institutosertaogrande/" target="_blank"><img src="./img/icons/instagram.svg" alt="Instagram"></a>
+					<a href="https://www.instagram.com/institutosertaogrande/" target="_blank"><img src="./img/icons/instagram.svg" alt="Instagram">Instagram</a>
 				</li>
 				<li>
-					<a href="https://www.linkedin.com/company/instituto-ser-tao-grande" target="_blank"><img src="./img/icons/linkedin.svg" alt="Linkedin"></a>
+					<a href="https://www.linkedin.com/company/instituto-ser-tao-grande" target="_blank"><img src="./img/icons/linkedin.svg" alt="Linkedin">Linkedin</a>
 				</li>
 			</ul>
 		</section>
@@ -570,7 +566,7 @@
 	<script src="./scripts/jquery-old.js"></script>
 	<script src="./scripts/slick.js"></script>
 	<script src="./scripts/scripts.js"></script>
-	<!-- <script src="./scripts/modal.js"></script> -->
+	<script src="./scripts/modal.js"></script>
 </body>
 
 </html>
