@@ -8,7 +8,10 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,800;1,400&display=swap" rel="stylesheet" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="./css/global.css" />
 	<title>ISTG | Bolsas de estudos e monitoria escolar</title>
 </head>
@@ -17,13 +20,13 @@
 	<header class="headerContent">
 		<section class="infoContent">
 			<picture class="infoContent__logo">
-				<source srcset="./img/Mobile/logo-mobile.png" media="(max-width: 800px)" />
+				<source srcset="./img/Mobile/logo-mobile.png" media="(max-width: 768px)" />
 				<img src="./img/Desktop/logo-desktop.png" alt="Logo do Instituto Ser Tão Grande" />
 			</picture>
 
 			<nav class="infoContent__menu">
 				<ul>
-					<li><a href="#partner">Parceiros</a></li>
+					<li class=""><a href="#partner">Parceiros</a></li>
 					<li><a href="#governance">Governança</a></li>
 					<li><a href="#howitworks">Como funciona</a></li>
 					<li>
@@ -34,144 +37,146 @@
 		</section>
 	</header>
 
-	<main>
-		<section class="bannerContent">
-			<img src="./img/Desktop/bg.png" alt="Transformando vidas através da educação" />
-		</section>
+	<section class="bannerContent">
+		<img src="./img/Desktop/bg.png" alt="Transformando vidas através da educação" />
+	</section>
 
-		<article class="aboutContent container">
-			<picture class="aboutContent__image" data-aos="fade-right" data-aos-duration="1500">
-				<img src="./img/Desktop/quemsomos.jpg" alt="Estante cor marrom no estilo rustica amadeirada cheia de livros" />
-			</picture>
-			<section class="aboutContent__text" data-aos="fade-left" data-aos-duration="1500">
-				<h2 class="title">Quem somos</h2>
-				<p>
-					Instituto Ser Tão Grande é uma entidade privada sem fins lucrativos
-					que acredita na valorização da educação como forma de promover a
-					equidade e criar impacto coletivo. Oferecemos oportunidades para
-					jovens de baixa renda e alto potencial acadêmico cursando o ensino
-					fundamental em escolas públicas por meio de bolsas de estudos,
-					mentorias e apoio multidisciplinar durante todo o ensino médio,
-					garantindo que esses jovens alcancem seu potencial, reduzindo as
-					desigualdades de oportunidades em comparação àqueles que já têm
-					privilégios.
-				</p>
+	<article class="aboutContent container">
+		<picture class="aboutContent__image" data-aos="fade-right" data-aos-duration="1500">
+			<img src="./img/Desktop/quemsomos.jpg" alt="Estante cor marrom no estilo rustica amadeirada cheia de livros" />
+		</picture>
+		<section class="aboutContent__text" data-aos="fade-left" data-aos-duration="1500">
+			<h2 class="title">Quem somos</h2>
+			<p>
+				Instituto Ser Tão Grande é uma entidade privada sem fins lucrativos
+				que acredita na valorização da educação como forma de promover a
+				equidade e criar impacto coletivo. Oferecemos oportunidades para
+				jovens de baixa renda e alto potencial acadêmico cursando o ensino
+				fundamental em escolas públicas por meio de bolsas de estudos,
+				mentorias e apoio multidisciplinar durante todo o ensino médio,
+				garantindo que esses jovens alcancem seu potencial, reduzindo as
+				desigualdades de oportunidades em comparação àqueles que já têm
+				privilégios.
+			</p>
 
-				<p>
-					Acredito que talentos podem ser encontrados em todas as camadas da
-					população e que a educação pode mudar histórias individuais e
-					familiares, gerando grande impacto social e institucional.
-				</p>
-				<div class="containerButton">
-					<a class="globalButton" href="#">Conheça a equipe</a>
-					<a class="globalButton" href="#">Conheça nossos jovens</a>
-				</div>
-			</section>
-		</article>
-
-		<section class="aboutPilars container">
-			<h2 class="title" data-aos="fade-right" data-aos-duration="1500">
-				Nossos pilares
-			</h2>
-			<div class="card-content">
-				<div class="aboutPilars--card" data-aos="fade-up" data-aos-duration="1500">
-					<h3 class="title-secondary">Apoio Acadêmico</h3>
-					<p>
-						Nosso apoio acadêmico acontece de duas formas: bolsa no ensino
-						médio em escolas de excelência ou, para aqueles que queiram
-						continuar na escola pública, financiamento de cursos de redação e
-						outras disciplinas no contraturno. Todos os jovens também terão
-						acesso a aulas de inglês também no contraturno.
-					</p>
-				</div>
-				<div class="aboutPilars--card" data-aos="fade-down" data-aos-duration="1500">
-					<h3 class="title-secondary">Mentorias</h3>
-					<p>
-						O mentor acompanha o desempenho do estudante, por meio de suporte
-						acadêmico, pessoal e social durante sua trajetória no ensino
-						médio. Nossos mentores são profissionais expoentes em suas
-						carreiras e pessoas com experiências em universidades de
-						referência mundial, como USP, Harvard e Columbia.
-					</p>
-				</div>
-				<div class="aboutPilars--card" data-aos="fade-up" data-aos-duration="1500">
-					<h3 class="title-secondary">Rede de contatos</h3>
-					<p>
-						Os estudantes vão participar de eventos e encontros, nos quais
-						poderão se conectar entre si e com profissionais de diferentes
-						áreas. Estamos construindo uma rede de jovens de impacto para a
-						identificação de possíveis oportunidades acadêmicas e
-						profissionais para os jovens, inclusive após o fim do ensino
-						médio.
-					</p>
-				</div>
+			<p>
+				Acredito que talentos podem ser encontrados em todas as camadas da
+				população e que a educação pode mudar histórias individuais e
+				familiares, gerando grande impacto social e institucional.
+			</p>
+			<div class="containerButton">
+				<a class="globalButton" href="#">Conheça a equipe</a>
+				<a class="globalButton" href="#">Conheça nossos jovens</a>
 			</div>
 		</section>
+	</article>
 
-		<section class="aboutPrinciples container">
-			<h2 class="title">Princípios</h2>
-			<section class="grid-layout">
-				<div class="card-content aboutPrinciples--card">
-					<div class="icon">
-						<img src="./img/icons/Comunidade.svg" alt="Ícone de duas pessoas uma ao lado da outra" />
-					</div>
-					<h3 class="title-secondary">Comunidade</h3>
-					<p>
-						Contamos com apoio de pessoas que compartilham nosso desejo de
-						transformar vidas por meio da educação
-					</p>
-				</div>
+	<section class="aboutPilars container">
+		<h2 class="title" data-aos="fade-right" data-aos-duration="1500">
+			Nossos pilares
+		</h2>
+		<div class="card-content">
+			<div class="aboutPilars--card" data-aos="fade-up" data-aos-duration="1500">
+				<h3 class="title-secondary">Apoio Acadêmico</h3>
+				<p>
+					Nosso apoio acadêmico acontece de duas formas: bolsa no ensino
+					médio em escolas de excelência ou, para aqueles que queiram
+					continuar na escola pública, financiamento de cursos de redação e
+					outras disciplinas no contraturno. Todos os jovens também terão
+					acesso a aulas de inglês também no contraturno.
+				</p>
+			</div>
+			<div class="aboutPilars--card" data-aos="fade-down" data-aos-duration="1500">
+				<h3 class="title-secondary">Mentorias</h3>
+				<p>
+					O mentor acompanha o desempenho do estudante, por meio de suporte
+					acadêmico, pessoal e social durante sua trajetória no ensino
+					médio. Nossos mentores são profissionais expoentes em suas
+					carreiras e pessoas com experiências em universidades de
+					referência mundial, como USP, Harvard e Columbia.
+				</p>
+			</div>
+			<div class="aboutPilars--card" data-aos="fade-up" data-aos-duration="1500">
+				<h3 class="title-secondary">Rede de contatos</h3>
+				<p>
+					Os estudantes vão participar de eventos e encontros, nos quais
+					poderão se conectar entre si e com profissionais de diferentes
+					áreas. Estamos construindo uma rede de jovens de impacto para a
+					identificação de possíveis oportunidades acadêmicas e
+					profissionais para os jovens, inclusive após o fim do ensino
+					médio.
+				</p>
+			</div>
+		</div>
+	</section>
 
-				<div class="card-content aboutPrinciples--card">
-					<div class="icon">
-						<img src="./img/icons/Coragem.svg" alt="Ícone de um megafone" />
-					</div>
-					<h3 class="title-secondary">Coragem</h3>
-					<p>Superamos a inércia todos os dias em prol do altruísmo</p>
+	<section class="aboutPrinciples container">
+		<h2 class="title">Princípios</h2>
+		<section class="grid-layout">
+			<div class="card-content aboutPrinciples--card">
+				<div class="icon">
+					<img src="./img/icons/Comunidade.svg" alt="Ícone de duas pessoas uma ao lado da outra" />
 				</div>
+				<h3 class="title-secondary">Comunidade</h3>
+				<p>
+					Contamos com apoio de pessoas que compartilham nosso desejo de
+					transformar vidas por meio da educação
+				</p>
+			</div>
 
-				<div class="card-content aboutPrinciples--card">
-					<div class="icon">
-						<img src="./img/icons/Etica.svg" alt="Ícone de um balão de texto" />
-					</div>
-					<h3 class="title-secondary">Ética</h3>
-					<p>Agimos de maneira íntegra e coerente com nossos princípios</p>
+			<div class="card-content aboutPrinciples--card">
+				<div class="icon">
+					<img src="./img/icons/Coragem.svg" alt="Ícone de um megafone" />
 				</div>
+				<h3 class="title-secondary">Coragem</h3>
+				<p>Superamos a inércia todos os dias em prol do altruísmo</p>
+			</div>
 
-				<div class="card-content aboutPrinciples--card">
-					<div class="icon">
-						<img src="./img/icons/Generosidade.svg" alt="Ícone de um coração" />
-					</div>
-					<h3 class="title-secondary">Generosidade</h3>
-					<p>
-						Buscamos selecionar jovens que no futuro poderão ajudar outras
-						pessoas, criando um círculo virtuoso de transformação
-					</p>
+			<div class="card-content aboutPrinciples--card">
+				<div class="icon">
+					<img src="./img/icons/Etica.svg" alt="Ícone de um balão de texto" />
 				</div>
+				<h3 class="title-secondary">Ética</h3>
+				<p>Agimos de maneira íntegra e coerente com nossos princípios</p>
+			</div>
 
-				<div class="card-content aboutPrinciples--card">
-					<div class="icon">
-						<img src="./img/icons/Garra.svg" alt="Ícone de um chapeu de formatura" />
-					</div>
-					<h3 class="title-secondary">Garra</h3>
-					<p>
-						Acreditamos que a mistura de paixão e perseverança pode produzir
-						resultados além do puro talento e sorte.
-					</p>
+			<div class="card-content aboutPrinciples--card">
+				<div class="icon">
+					<img src="./img/icons/Generosidade.svg" alt="Ícone de um coração" />
 				</div>
+				<h3 class="title-secondary">Generosidade</h3>
+				<p>
+					Buscamos selecionar jovens que no futuro poderão ajudar outras
+					pessoas, criando um círculo virtuoso de transformação
+				</p>
+			</div>
 
-				<div class="card-content aboutPrinciples--card">
-					<div class="icon">
-						<img src="./img/icons/Qualidade.svg" alt="Ícone de um foguete decolando" />
-					</div>
-					<h3 class="title-secondary">Educação de qualidade</h3>
-					<p>
-						Acreditamos que educação de qualidade é a melhor forma de criar
-						novos futuros.o
-					</p>
+			<div class="card-content aboutPrinciples--card">
+				<div class="icon">
+					<img src="./img/icons/Garra.svg" alt="Ícone de um chapeu de formatura" />
 				</div>
-			</section>
+				<h3 class="title-secondary">Garra</h3>
+				<p>
+					Acreditamos que a mistura de paixão e perseverança pode produzir
+					resultados além do puro talento e sorte.
+				</p>
+			</div>
+
+			<div class="card-content aboutPrinciples--card">
+				<div class="icon">
+					<img src="./img/icons/Qualidade.svg" alt="Ícone de um foguete decolando" />
+				</div>
+				<h3 class="title-secondary">Educação de qualidade</h3>
+				<p>
+					Acreditamos que educação de qualidade é a melhor forma de criar
+					novos futuros.o
+				</p>
+			</div>
 		</section>
+	</section>
+
+	<main>
+
 
 		<article class="aboutWorks container" id="howitworks">
 			<section class="aboutWorks__intro">
@@ -392,32 +397,32 @@
 			</div>
 		</section>
 		<!-- <section class="aboutQuestion"></section> video -->
-
-		<div class="modal--wrapper">
-			<div class="modal__content">
-				<div class="modal--top">
-					<button class="closeModal">
-						<img class="iconClose" src="./img/icons/closeIcon.svg" alt="Fechar Pop-up" />
-					</button>
-				</div>
-				<form action="" class="modal--form">
-					<figure>
-						<img src="./img/icons/envelope.png" alt="ícone de e-mail" />
-
-						<figcaption>Inscreva-se</figcaption>
-
-						<p>Inscreva-se em nossa newsletter e fique atualizado!</p>
-					</figure>
-
-					<div class="group--field-btn">
-						<input type="email" name="email" id="email" placeholder="Seu E-mail" />
-
-						<button>Inscrever-se</button>
-					</div>
-				</form>
-			</div>
-		</div>
 	</main>
+
+	<div class="modal--wrapper">
+		<div class="modal__content">
+			<div class="modal--top">
+				<button class="closeModal">
+					<img class="iconClose" src="./img/icons/closeIcon.svg" alt="Fechar Pop-up" />
+				</button>
+			</div>
+			<form action="" class="modal--form">
+				<figure>
+					<img src="./img/icons/envelope.png" alt="ícone de e-mail" />
+
+					<figcaption>Inscreva-se</figcaption>
+
+					<p>Inscreva-se em nossa newsletter e fique atualizado!</p>
+				</figure>
+
+				<div class="group--field-btn">
+					<input type="email" name="email" id="email" placeholder="Seu E-mail" />
+
+					<button>Inscrever-se</button>
+				</div>
+			</form>
+		</div>
+	</div>
 
 	<article class="aboutGovernance container" id="governance">
 		<h2 class="title">Prestação de contas</h2>
@@ -565,7 +570,7 @@
 	<script src="./scripts/jquery-old.js"></script>
 	<script src="./scripts/slick.js"></script>
 	<script src="./scripts/scripts.js"></script>
-	<script src="./scripts/modal.js"></script>
+	<!-- <script src="./scripts/modal.js"></script> -->
 </body>
 
 </html>

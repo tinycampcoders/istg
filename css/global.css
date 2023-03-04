@@ -2,15 +2,6 @@
 
 @import "./utils/reset.css";
 
-/* Slick import */
-
-@import "./utils/slick.css";
-@import "./utils/slick-theme.css";
-
-/* Import Animations */
-
-@import "./utils/aos.css";
-
 /* Importando componentes */
 
 @import "./utils/components.css";
@@ -22,3 +13,12 @@
 @import "./utils/modal.css";
 
 @import "./utils/responsive.css";
+
+/* Slick import */
+
+@import "./utils/slick.css";
+@import "./utils/slick-theme.css";
+
+/* Import Animations */
+
+@import "./utils/aos.css";

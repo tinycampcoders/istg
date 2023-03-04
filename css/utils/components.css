@@ -37,6 +37,11 @@
   transition: 1s;
 }
 
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
 .globalButton:hover {
   background-color: var(--color-button-hover);
 }

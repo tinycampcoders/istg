@@ -77,25 +77,31 @@
 }
 
 @media (max-width: 768px) {
-  /* header section.infoContent {
-		flex-direction: column;
-		gap: 2rem;
-	}
-
-	picture.infoContent__logo {
-		width: 30%;
-	}
-
-	nav.infoContent__menu {
-		width: 100%;
-	}
-
-	.container {
-		padding: 0;
-	} */
   .headerContent {
-    display: none;
+    height: 125px;
   }
+  .infoContent {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: initial;
+    padding: 10px 0;
+    gap: 20px;
+  }
+  .infoContent__logo {
+    width: 40px;
+  }
+  .infoContent__menu ul {
+    gap: 8px;
+  }
+  .infoContent__menu a {
+    font-weight: 800;
+  }
+
+  .bannerContent img {
+    height: 250px;
+  }
+
   .aboutContent {
     grid-template-columns: 1fr;
   }
@@ -110,8 +116,15 @@
     height: 250px;
   }
 
+  .aboutCite {
+    background-image: url("../../img/Mobile/citemobile.png");
+  }
+
   .aboutCite__info {
     width: initial;
     padding: 20px;
+  }
+  .aboutEnd {
+    text-align: center;
   }
 }
