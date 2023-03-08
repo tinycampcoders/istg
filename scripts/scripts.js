@@ -1,1 +1,1 @@
-$(document).on("ready",function(){$(".aboutNotice--container").slick({slidesToShow:3,autoplay:!0,slidesToScroll:1,dots:!1,responsive:[{breakpoint:768,settings:{slidesToShow:2}},{breakpoint:600,settings:{slidesToShow:1}},]}),$(".aboutNotice--content").css("display","flex")});
+$(document).on("ready",function(){$(".aboutNotice--container").slick({slidesToShow:3,autoplay:!0,slidesToScroll:1,dots:!1,responsive:[{breakpoint:1025,settings:{slidesToShow:2}},{breakpoint:600,settings:{slidesToShow:1}},]}),$(".aboutNotice--content").css("display","flex")});
