@@ -1,933 +1,624 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta rel="canonical" href="https://institutosertaogrande.org" />
-		<meta
-			name="description"
-			content="Instituto Ser Tão Grande é uma ONG de Goiânia e Uberlândia que fomenta educação de qualidade e oportunidades para jovens do 9ºano"
-		/>
-		<meta
-			name="keywords"
-			content="instituto ser tão grande, vestibular, educação, oportunidade, goiânia, uberlândia, instituto, ensino médio, baixa renda, ensino fundamental, disciplinas, voluntário"
-		/>
+<head>
+	<meta charset="UTF-8" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-		<meta property="og:locale" content="pt_BR" />
-		<meta property="og:type" content="website" />
-		<meta
-			property="og:title"
-			content="Bolsas de estudos - Impulsionando Jovens Talentos do Interior do Brasil"
-		/>
-		<meta
-			property="og:description"
-			content="Instituto Ser Tão Grande é uma ONG de Goiânia e Uberlândia que fomenta educação de qualidade e oportunidades para jovens do 9ºano"
-		/>
-		<meta property="og:url" content="https://institutosertaogrande.org/" />
-		<meta property="og:site_name" content="Instituto Ser Tão Grande" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta rel="canonical" href="https://institutosertaogrande.org" />
+	<meta name="description" content="Instituto Ser Tão Grande é uma ONG de Goiânia e Uberlândia que fomenta educação de qualidade e oportunidades para jovens do 9ºano" />
+	<meta name="keywords" content="instituto ser tão grande, vestibular, educação, oportunidade, goiânia, uberlândia, instituto, ensino médio, baixa renda, ensino fundamental, disciplinas, voluntário" />
 
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:wght@400;500;600&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			href="https://fonts.googleapis.com/icon?family=Material+Icons"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="./css/global.css" />
+	<meta property="og:locale" content="pt_BR" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Bolsas de estudos - Impulsionando Jovens Talentos do Interior do Brasil" />
+	<meta property="og:description" content="Instituto Ser Tão Grande é uma ONG de Goiânia e Uberlândia que fomenta educação de qualidade e oportunidades para jovens do 9ºano" />
+	<meta property="og:url" content="https://institutosertaogrande.org/" />
+	<meta property="og:site_name" content="Instituto Ser Tão Grande" />
+	<link rel="icon" href="./img/Mobile/logo-mobile.png" type="image/png">
 
-		<title>ISTG | Bolsas de estudos e monitoria escolar</title>
-	</head>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="preload" href="./css/global.css">
+	<link rel="stylesheet" href="./css/global.css" />
 
-	<body>
-		<header class="headerContent">
-			<section class="infoContent">
-				<picture class="infoContent__logo">
-					<source
-						srcset="./img/Mobile/logo-mobile.png"
-						media="(max-width: 768px)"
-					/>
-					<img
-						src="./img/Desktop/logo-desktop.png"
-						alt="Instituto Ser Tão Grande"
-					/>
-				</picture>
+	<title>ISTG | Bolsas de estudos e monitoria escolar</title>
+</head>
 
-				<nav class="infoContent__menu" aria-label="Menu de Navegação">
-					<ul>
-						<li class=""><a href="#partner">Parceiros</a></li>
-						<li><a href="#governance">Governança</a></li>
-						<li><a href="#howitworks">Como funciona</a></li>
-						<li><a href="#donation" id="buttonLink">Apoiar</a></li>
-					</ul>
-				</nav>
-			</section>
-		</header>
-
-		<section class="bannerContent" aria-label="Banner de nossas campanhas">
-			<img
-				role="banner"
-				src="./img/Desktop/bg.png"
-				alt="Transformando vidas através da educação"
-			/>
-		</section>
-
-		<article class="aboutContent container" aria-labelledby="quem-somos">
-			<picture
-				class="aboutContent__image"
-				data-aos="fade-right"
-				data-aos-duration="1500"
-			>
-				<img
-					src="./img/Desktop/quemsomos.jpg"
-					alt="Estante cor marrom no estilo rustica amadeirada cheia de livros"
-				/>
+<body>
+	<header class="headerContent">
+		<section class="infoContent">
+			<picture class="infoContent__logo">
+				<source srcset="./img/Mobile/logo-mobile.png" media="(max-width: 768px)" />
+				<img src="./img/Desktop/logo-desktop.png" alt="Instituto Ser Tão Grande" />
 			</picture>
-			<section
-				class="aboutContent__text"
-				data-aos="fade-left"
-				data-aos-duration="2000"
-			>
-				<h2 id="quem-somos" class="title">Quem somos</h2>
-				<p>
-					Instituto Ser Tão Grande é uma entidade privada sem fins lucrativos
-					que acredita na valorização da educação como forma de promover a
-					equidade e criar impacto coletivo. Oferecemos oportunidades para
-					jovens de baixa renda e alto potencial acadêmico cursando o ensino
-					fundamental em escolas públicas por meio de bolsas de estudos,
-					mentorias e apoio multidisciplinar durante todo o ensino médio,
-					garantindo que esses jovens alcancem seu potencial, reduzindo as
-					desigualdades de oportunidades em comparação àqueles que já têm
-					privilégios.
-				</p>
 
-				<p>
-					Acredito que talentos podem ser encontrados em todas as camadas da
-					população e que a educação pode mudar histórias individuais e
-					familiares, gerando grande impacto social e institucional.
-				</p>
-				<div class="containerButton">
-					<a class="globalButton" href="#">Conheça a equipe</a>
-					<a class="globalButton" href="#">Conheça nossos jovens</a>
-				</div>
-			</section>
-		</article>
+			<nav class="infoContent__menu" aria-label="Menu de Navegação">
+				<ul>
+					<li class=""><a href="#partner">Parceiros</a></li>
+					<li><a href="#governance">Governança</a></li>
+					<li><a href="#howitworks">Como funciona</a></li>
+					<li><a href="#donation" id="buttonLink">Apoiar</a></li>
+				</ul>
+			</nav>
+		</section>
+	</header>
 
-		<section class="aboutPilars container" aria-label="Nossos Pílares">
-			<h2 class="title" data-aos="fade-right" data-aos-duration="1500">
-				Nossos pilares
-			</h2>
-			<div class="card-content">
-				<div
-					class="aboutPilars--card"
-					data-aos="fade-up"
-					data-aos-duration="1500"
-				>
-					<h3 class="title-secondary">Apoio Acadêmico</h3>
-					<p>
-						Nosso apoio acadêmico acontece de duas formas: bolsa no ensino médio
-						em escolas de excelência ou, para aqueles que queiram continuar na
-						escola pública, financiamento de cursos de redação e outras
-						disciplinas no contraturno. Todos os jovens também terão acesso a
-						aulas de inglês também no contraturno.
-					</p>
-				</div>
-				<div
-					class="aboutPilars--card"
-					data-aos="fade-down"
-					data-aos-duration="1500"
-				>
-					<h3 class="title-secondary">Mentorias</h3>
-					<p>
-						O mentor acompanha o desempenho do estudante, por meio de suporte
-						acadêmico, pessoal e social durante sua trajetória no ensino médio.
-						Nossos mentores são profissionais expoentes em suas carreiras e
-						pessoas com experiências em universidades de referência mundial,
-						como USP, Harvard e Columbia.
-					</p>
-				</div>
-				<div
-					class="aboutPilars--card"
-					data-aos="fade-up"
-					data-aos-duration="1500"
-				>
-					<h3 class="title-secondary">Rede de contatos</h3>
-					<p>
-						Os estudantes vão participar de eventos e encontros, nos quais
-						poderão se conectar entre si e com profissionais de diferentes
-						áreas. Estamos construindo uma rede de jovens de impacto para a
-						identificação de possíveis oportunidades acadêmicas e profissionais
-						para os jovens, inclusive após o fim do ensino médio.
-					</p>
-				</div>
+	<section class="bannerContent" aria-label="Banner de nossas campanhas">
+		<img role="banner" src="./img/Desktop/bg.png" alt="Transformando vidas através da educação" width="1720px" height="749px" />
+	</section>
+
+	<article class="aboutContent container" aria-labelledby="quem-somos">
+		<picture class="aboutContent__image">
+			<img src="./img/Desktop/quemsomos.jpg" width="1333px" height="2000px" alt="Estante cor marrom no estilo rustica amadeirada cheia de livros" />
+		</picture>
+		<section class="aboutContent__text">
+			<h2 id="quem-somos" class="title">Quem somos</h2>
+			<p>
+				Instituto Ser Tão Grande é uma entidade privada sem fins lucrativos
+				que acredita na valorização da educação como forma de promover a
+				equidade e criar impacto coletivo. Oferecemos oportunidades para
+				jovens de baixa renda e alto potencial acadêmico cursando o ensino
+				fundamental em escolas públicas por meio de bolsas de estudos,
+				mentorias e apoio multidisciplinar durante todo o ensino médio,
+				garantindo que esses jovens alcancem seu potencial, reduzindo as
+				desigualdades de oportunidades em comparação àqueles que já têm
+				privilégios.
+			</p>
+
+			<p>
+				Acredito que talentos podem ser encontrados em todas as camadas da
+				população e que a educação pode mudar histórias individuais e
+				familiares, gerando grande impacto social e institucional.
+			</p>
+			<div class="containerButton">
+				<a class="globalButton" href="#">Conheça a equipe</a>
+				<a class="globalButton" href="#">Conheça nossos jovens</a>
 			</div>
 		</section>
+	</article>
 
-		<section class="aboutPrinciples container" aria-label="Princípios">
-			<h2 class="title" data-aos="fade-right" data-aos-duration="1500">
-				Princípios
-			</h2>
-			<section class="grid-layout">
-				<div
-					class="card-content aboutPrinciples--card"
-					data-aos="fade-right"
-					data-aos-duration="1500"
-				>
-					<div class="icon">
-						<img
-							src="./img/icons/Comunidade.svg"
-							alt="Ícone de duas pessoas uma ao lado da outra"
-						/>
-					</div>
-					<h3 class="title-secondary">Comunidade</h3>
-					<p>
-						Contamos com apoio de pessoas que compartilham nosso desejo de
-						transformar vidas por meio da educação
-					</p>
-				</div>
-
-				<div
-					class="card-content aboutPrinciples--card"
-					data-aos="fade-left"
-					data-aos-duration="1650"
-				>
-					<div class="icon">
-						<img src="./img/icons/Coragem.svg" alt="Ícone de um megafone" />
-					</div>
-					<h3 class="title-secondary">Coragem</h3>
-					<p>Superamos a inércia todos os dias em prol do altruísmo</p>
-				</div>
-
-				<div
-					class="card-content aboutPrinciples--card"
-					data-aos="fade-right"
-					data-aos-duration="1800"
-				>
-					<div class="icon">
-						<img src="./img/icons/Etica.svg" alt="Ícone de um balão de texto" />
-					</div>
-					<h3 class="title-secondary">Ética</h3>
-					<p>Agimos de maneira íntegra e coerente com nossos princípios</p>
-				</div>
-
-				<div
-					class="card-content aboutPrinciples--card"
-					data-aos="fade-left"
-					data-aos-duration="1950"
-				>
-					<div class="icon">
-						<img src="./img/icons/Generosidade.svg" alt="Ícone de um coração" />
-					</div>
-					<h3 class="title-secondary">Generosidade</h3>
-					<p>
-						Buscamos selecionar jovens que no futuro poderão ajudar outras
-						pessoas, criando um círculo virtuoso de transformação
-					</p>
-				</div>
-
-				<div
-					class="card-content aboutPrinciples--card"
-					data-aos="fade-right"
-					data-aos-duration="2100"
-				>
-					<div class="icon">
-						<img
-							src="./img/icons/Garra.svg"
-							alt="Ícone de um chapeu de formatura"
-						/>
-					</div>
-					<h3 class="title-secondary">Garra</h3>
-					<p>
-						Acreditamos que a mistura de paixão e perseverança pode produzir
-						resultados além do puro talento e sorte.
-					</p>
-				</div>
-
-				<div
-					class="card-content aboutPrinciples--card"
-					data-aos="fade-left"
-					data-aos-duration="2250"
-				>
-					<div class="icon">
-						<img
-							src="./img/icons/Qualidade.svg"
-							alt="Ícone de um foguete decolando"
-						/>
-					</div>
-					<h3 class="title-secondary">Educação de qualidade</h3>
-					<p>
-						Acreditamos que educação de qualidade é a melhor forma de criar
-						novos futuros.o
-					</p>
-				</div>
-			</section>
-		</section>
-
-		<main>
-			<article
-				class="aboutWorks container"
-				id="howitworks"
-				aria-label="Como-funciona?"
-			>
-				<section class="aboutWorks__intro">
-					<h2
-						class="title title-secondar"
-						data-aos="fade-right"
-						data-aos-duration="1500"
-					>
-						Como funciona?
-					</h2>
-					<p data-aos="fade-right" data-aos-duration="1650">
-						Inscrevendo - se no Processo Seletivo Instituto Ser Tão Grande você
-						concorre a bolsas de estudos, mentorias e cursos gratuitos!
-					</p>
-					<h3
-						id="acesso"
-						class="title-secondary"
-						data-aos="fade-right"
-						data-aos-duration="1800"
-					>
-						Você terá acesso a:
-					</h3>
-					<section class="card-content card-wrapper">
-						<div
-							class="card-content-inside card-content"
-							data-aos="fade-right"
-							data-aos-duration="1950"
-						>
-							<div class="icon">
-								<img
-									src="./img/icons/Mentoria.png"
-									alt="Ícone de duas pessoas sincronizadas intelectualmente através da mentoria"
-								/>
-							</div>
-							<p>Programa de Mentoria em Diversas Áreas</p>
-						</div>
-						<div
-							class="card-content-inside card-content"
-							data-aos="fade-up"
-							data-aos-duration="2100"
-						>
-							<div class="icon">
-								<img
-									src="./img/icons/Linguas.png"
-									alt="Ícone de uma lista em ingles "
-								/>
-							</div>
-							<p>Curso de Idiomas Gratuito para sua Formação</p>
-						</div>
-						<div
-							class="card-content-inside card-content"
-							data-aos="fade-left"
-							data-aos-duration="2250"
-						>
-							<div class="icon">
-								<img
-									src="./img/icons/Bolsas.png"
-									alt="Ícone de um troféu por se graduar "
-								/>
-							</div>
-							<p>Bolsas de Estudo e Aulas Extras Contraturno</p>
-						</div>
-					</section>
-				</section>
-				<section class="aboutWorks__modalities">
-					<h2 class="title" data-aos="fade-right" data-aos-duration="1500">
-						É você quem escolhe como aproveitar esta oportunidade!
-					</h2>
-					<h3
-						class="title-secondary"
-						data-aos="fade-right"
-						data-aos-duration="1650"
-					>
-						Nossas modalidades:
-					</h3>
-					<section class="Modalities--academic">
-						<h4
-							class="title-tertiary"
-							data-aos="fade-right"
-							data-aos-duration="1800"
-						>
-							Modalidade apoio academico
-						</h4>
-						<section class="card-content card-wrapper">
-							<div
-								class="card-content-inside card-content"
-								data-aos="fade-right"
-								data-aos-duration="1950"
-							>
-								<div class="icon">
-									<img
-										src="./img/icons/Escola-publica.png"
-										alt="Ícone de um livro aberto com um lapís no meio"
-									/>
-								</div>
-								<p>
-									Jovens Aprovados continuam na escola pública da sua cidade
-								</p>
-							</div>
-							<div
-								class="card-content-inside card-content"
-								data-aos="fade-up"
-								data-aos-duration="2100"
-							>
-								<div class="icon">
-									<img
-										src="./img/icons/Mentoria-online.png"
-										alt="Ícone de um notebook com um balão de texto saindo da tela."
-									/>
-								</div>
-								<p>Mentoria Especializada na Área de Interesse</p>
-							</div>
-							<div
-								class="card-content-inside card-content"
-								data-aos="fade-up"
-								data-aos-duration="2450"
-							>
-								<div class="icon">
-									<img
-										src="./img/icons/Linguas-online.png"
-										alt="Ícone de um notebook com um chapéu de graduando na parte superior da tela."
-									/>
-								</div>
-								<p>Bolsa Integral para Curso de Inglês</p>
-							</div>
-							<div
-								class="card-content-inside card-content"
-								data-aos="fade-left"
-								data-aos-duration="2600"
-							>
-								<div class="icon">
-									<img
-										src="./img/icons/Reforco.png"
-										alt="Ícone de uma pessoa com uma engrenagem em seus pensamentos"
-									/>
-								</div>
-								<p>Curso contraturno de Desenvolvimento e Reforço</p>
-							</div>
-						</section>
-					</section>
-					<section class="Modalities--academic">
-						<h4
-							class="title-tertiary"
-							data-aos="fade-right"
-							data-aos-duration="1500"
-						>
-							Modalidade Escola Particular
-						</h4>
-						<section class="card-content card-wrapper">
-							<div
-								class="card-content-inside card-content"
-								data-aos="fade-right"
-								data-aos-duration="1650"
-							>
-								<div class="icon">
-									<img
-										src="./img/icons/Bolsa-integral.png"
-										alt="Ícone de um troféu de ganhador"
-									/>
-								</div>
-								<p>
-									Jovens Aprovados Recebem Bolsa Integral na Rede Particular
-								</p>
-							</div>
-							<div
-								class="card-content-inside card-content"
-								data-aos="fade-up"
-								data-aos-duration="1800"
-							>
-								<div class="icon">
-									<img
-										src="./img/icons/Mentoria-Presencial.png"
-										alt="Ícone de dois balões de texto"
-									/>
-								</div>
-								<p>Mentoria Especializada na Área de Interesse</p>
-							</div>
-							<div
-								class="card-content-inside card-content"
-								data-aos="fade-left"
-								data-aos-duration="1950"
-							>
-								<div class="icon">
-									<img
-										src="./img/icons/Linguas-presenciall.png"
-										alt="Ícone de uma pessoa com uma lampada na mente falando."
-									/>
-								</div>
-								<p>Bolsa Integral para Curso de Inglês</p>
-							</div>
-						</section>
-					</section>
-				</section>
-				<a
-					class="globalButton"
-					data-aos="fade-up"
-					data-aos-duration="2200"
-					href="#"
-					>Quero participar!</a
-				>
-			</article>
-
-			<article
-				class="aboutCite container"
-				aria-labelledby="Nosso-lema"
-				data-aos="fade-left"
-				data-aos-duration="1500"
-			>
-				<section
-					class="aboutCite__info"
-					data-aos="fade-right"
-					data-aos-duration="2250"
-				>
-					<h1 class="title" id="Nosso-lema">
-						O que separa uma mente brilhante do sucesso é a falta de
-						oportunidade.
-					</h1>
-					<p>
-						Sua doação nos permite diminuir distâncias educacionais entre jovens
-						de baixa renda e estudantes com mesmo potencial acadêmico, mas sem
-						as mesmas oportunidades. Que tal mudar a vida de alguém hoje?
-					</p>
-				</section>
-			</article>
-
-			<section
-				class="aboutDonate container"
-				id="donation"
-				aria-label="Como-ajudar"
-				data-aos="fade-left"
-				data-aos-duration="1950"
-			>
-				<h2 class="title title-secondar">Como você pode ajudar?</h2>
-
-				<input type="radio" name="slider" id="item-1" checked />
-				<input type="radio" name="slider" id="item-2" />
-				<input type="radio" name="slider" id="item-3" />
-				<input type="radio" name="slider" id="item-4" />
-				<input type="radio" name="slider" id="item-5" />
-
-				<div class="cards--donates">
-					<label class="card--donate" for="item-1" id="help-1">
-						<h3>Patrono da Educação</h3>
-						<p>
-							Com um compromisso de 12 meses, os Mantenedores financiam os
-							estudos de um Jovem Ser Tão Grande, com doações mensais
-							<strong>a partir de R$550</strong>
-						</p>
-
-						<div class="navigation">
-							<a
-								href="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar"
-							>
-								<img
-									src="./img/icons/arrow.png"
-									title="Saiba Mais"
-									alt="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar"
-								/>
-							</a>
-						</div>
-					</label>
-
-					<label class="card--donate" for="item-2" id="help-2">
-						<h3>Doador Cerrado</h3>
-						<p>
-							Os Doadores Cerrado contribuem mensalmente com a nossa causa com
-							valores <strong>a partir de R$ 130</strong>. São extremamente
-							importante para o nosso planejamento ao longo prazo.
-						</p>
-
-						<div class="navigation">
-							<a
-								href="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar"
-							>
-								<img
-									src="./img/icons/arrow.png"
-									title="Saiba Mais"
-									alt="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar"
-								/>
-							</a>
-						</div>
-					</label>
-
-					<label class="card--donate" for="item-3" id="help-3">
-						<h3>Doador Pontual</h3>
-						<p>
-							A qualquer momento você pode fazer
-							<strong>uma doação pontual</strong> para o Instituto Ser Tao
-							Grande. Toda a doação é muito importante para a continuidade do
-							nosso trabalho.
-						</p>
-
-						<div class="navigation">
-							<a
-								href="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar"
-							>
-								<img
-									src="./img/icons/arrow.png"
-									title="Saiba Mais"
-									alt="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar"
-								/>
-							</a>
-						</div>
-					</label>
-
-					<label class="card--donate" for="item-4" id="help-4">
-						<h3>Mentoria</h3>
-						<p>
-							É especialista em algum ramo e tem condições de compartilhar esse
-							conhecimento? Você pode ser mentor individual de algum jovem e
-							acompanhá-lo no seu desenvolvimento pessoal e profissional. Caso
-							queira também pode fazer sessões de mentoria em grupo e pontuais,
-							em eventos e reuniões organizados pelo Instituto.
-						</p>
-						<div class="navigation">
-							<a
-								href="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar"
-							>
-								<img
-									src="./img/icons/arrow.png"
-									title="Saiba Mais"
-									alt="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar"
-								/>
-							</a>
-						</div>
-					</label>
-
-					<label class="card--donate" for="item-5" id="help-5">
-						<h3>Voluntariado</h3>
-						<p>
-							Quer ajudar mas não tem recursos para doar ou disponibilidade de
-							ser um mentor? Você pode ajudar na divulgação do Instituto e
-							também nas atividades administrativas, como correção de provas e
-							análise de histórico escolar. Não contamos com equipe própria,
-							portanto toda ajuda comprometida é muito bem-vinda.
-						</p>
-
-						<div class="navigation">
-							<a
-								href="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar"
-							>
-								<img
-									src="./img/icons/arrow.png"
-									title="Saiba Mais"
-									alt="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar"
-								/>
-							</a>
-						</div>
-					</label>
-				</div>
-			</section>
-
-			<section
-				class="aboutNumbers container"
-				aria-label="Nossos números"
-				data-aos="fade-left"
-				data-aos-duration="1500"
-			>
-				<h2
-					class="title title-secondar"
-					data-aos="fade-right"
-					data-aos-duration="1800"
-				>
-					Somos
-				</h2>
-				<div class="aboutNumbers__content">
-					<div class="numbers" data-aos="fade-right" data-aos-duration="1850">
-						<span class="contagem">40</span>
-						<h3>Jovens</h3>
-					</div>
-
-					<div class="numbers" data-aos="fade-up" data-aos-duration="1860">
-						<span class="contagem">+50</span>
-						<h3>Mentores</h3>
-					</div>
-
-					<div class="numbers" data-aos="fade-right" data-aos-duration="1870">
-						<span class="contagem">80</span>
-						<h3>Voluntários</h3>
-					</div>
-				</div>
-			</section>
-			<!-- <section class="aboutQuestion"></section> video -->
-		</main>
-
-		<div class="modal--wrapper" aria-label="Inscreva - se em nossa newsletter">
-			<div class="modal__content">
-				<div class="modal--top">
-					<button class="closeModal">
-						<img
-							class="iconClose"
-							src="./img/icons/closeIcon.svg"
-							alt="Fechar Pop-up"
-						/>
-					</button>
-				</div>
-				<form action="" class="modal--form">
-					<figure>
-						<img src="./img/icons/envelope.png" alt="ícone de e-mail" />
-
-						<figcaption>Inscreva-se</figcaption>
-
-						<p>Inscreva-se em nossa newsletter e fique atualizado!</p>
-					</figure>
-
-					<div class="group--field-btn">
-						<input
-							type="email"
-							name="email"
-							id="email"
-							placeholder="Seu E-mail"
-						/>
-
-						<button>Inscrever-se</button>
-					</div>
-				</form>
+	<section class="aboutPilars container" aria-label="Nossos Pílares">
+		<h2 class="title">
+			Nossos pilares
+		</h2>
+		<div class="card-content">
+			<div class="aboutPilars--card">
+				<h3 class="title-secondary">Apoio Acadêmico</h3>
+				<p>
+					Nosso apoio acadêmico acontece de duas formas: bolsa no ensino médio
+					em escolas de excelência ou, para aqueles que queiram continuar na
+					escola pública, financiamento de cursos de redação e outras
+					disciplinas no contraturno. Todos os jovens também terão acesso a
+					aulas de inglês também no contraturno.
+				</p>
+			</div>
+			<div class="aboutPilars--card">
+				<h3 class="title-secondary">Mentorias</h3>
+				<p>
+					O mentor acompanha o desempenho do estudante, por meio de suporte
+					acadêmico, pessoal e social durante sua trajetória no ensino médio.
+					Nossos mentores são profissionais expoentes em suas carreiras e
+					pessoas com experiências em universidades de referência mundial,
+					como USP, Harvard e Columbia.
+				</p>
+			</div>
+			<div class="aboutPilars--card">
+				<h3 class="title-secondary">Rede de contatos</h3>
+				<p>
+					Os estudantes vão participar de eventos e encontros, nos quais
+					poderão se conectar entre si e com profissionais de diferentes
+					áreas. Estamos construindo uma rede de jovens de impacto para a
+					identificação de possíveis oportunidades acadêmicas e profissionais
+					para os jovens, inclusive após o fim do ensino médio.
+				</p>
 			</div>
 		</div>
+	</section>
 
-		<article
-			class="aboutGovernance container"
-			id="governance"
-			aria-label="Finanças"
-		>
-			<h2 class="title">Prestação de contas</h2>
-			<section class="aboutFinance" aria-label="Explicando nossas finanças">
-				<section class="box">
-					<p>
-						Desde sua concepção o Instituto Ser Tão Grande procura ter uma
-						governança de alto nível prestando contas a todos envolvidos e
-						interessados sobre evolução do projeto e no direcionamento dos
-						recursos. Queremos criar algo sólido e duradouro para os jovens,
-						doadores, voluntários e para a sociedade goiana. Para isso, ter
-						transparência é fundamental. Seguiremos as melhores práticas nesse
-						quesito.
-					</p>
-					<p>
-						Divulgamos um relatório trimestral com os principais acontecimentos
-						ocorridos nos últimos meses e com os planos para os meses que virão.
-						Adicionalmente, teremos um relatório anual com um nível mais
-						detalhado de informações, inclusive demonstrações financeiras.
-					</p>
-					<a
-						class="globalButton"
-						href="https://drive.google.com/file/d/1ktUAN3JzfAdjT0soBkrPYnHVnGMlv3Q8/view?usp=sharing"
-						target="_blank"
-						>Relátorio 2020</a
-					>
-					<a
-						class="globalButton"
-						href="https://drive.google.com/file/d/1JGKMfusWYr88parwOwgIsfUryFniAevN/view?usp=sharing"
-						target="_blank"
-						>Relátorio 2021</a
-					>
+	<section class="aboutPrinciples container" aria-label="Princípios">
+		<h2 class="title">
+			Princípios
+		</h2>
+		<section class="grid-layout">
+			<div class="card-content aboutPrinciples--card">
+				<div class="icon">
+					<img src="./img/icons/Comunidade.svg" width="128px" height="128px" alt="Ícone de duas pessoas uma ao lado da outra" />
+				</div>
+				<h3 class="title-secondary">Comunidade</h3>
+				<p>
+					Contamos com apoio de pessoas que compartilham nosso desejo de
+					transformar vidas por meio da educação
+				</p>
+			</div>
+
+			<div class="card-content aboutPrinciples--card">
+				<div class="icon">
+					<img src="./img/icons/Coragem.svg" width="128px" height="128px" alt="Ícone de um megafone" />
+				</div>
+				<h3 class="title-secondary">Coragem</h3>
+				<p>Superamos a inércia todos os dias em prol do altruísmo</p>
+			</div>
+
+			<div class="card-content aboutPrinciples--card">
+				<div class="icon">
+					<img src="./img/icons/Etica.svg" width="128px" height="128px" alt="Ícone de um balão de texto" />
+				</div>
+				<h3 class="title-secondary">Ética</h3>
+				<p>Agimos de maneira íntegra e coerente com nossos princípios</p>
+			</div>
+
+			<div class="card-content aboutPrinciples--card">
+				<div class="icon">
+					<img src="./img/icons/Generosidade.svg" width="128px" height="128px" alt="Ícone de um coração" />
+				</div>
+				<h3 class="title-secondary">Generosidade</h3>
+				<p>
+					Buscamos selecionar jovens que no futuro poderão ajudar outras
+					pessoas, criando um círculo virtuoso de transformação
+				</p>
+			</div>
+
+			<div class="card-content aboutPrinciples--card">
+				<div class="icon">
+					<img src="./img/icons/Garra.svg" width="128px" height="128px" alt="Ícone de um chapeu de formatura" />
+				</div>
+				<h3 class="title-secondary">Garra</h3>
+				<p>
+					Acreditamos que a mistura de paixão e perseverança pode produzir
+					resultados além do puro talento e sorte.
+				</p>
+			</div>
+
+			<div class="card-content aboutPrinciples--card">
+				<div class="icon">
+					<img src="./img/icons/Qualidade.svg" width="128px" height="128px" alt="Ícone de um foguete decolando" />
+				</div>
+				<h3 class="title-secondary">Educação de qualidade</h3>
+				<p>
+					Acreditamos que educação de qualidade é a melhor forma de criar
+					novos futuros.o
+				</p>
+			</div>
+		</section>
+	</section>
+
+	<main>
+		<article class="aboutWorks container" id="howitworks" aria-label="Como-funciona?">
+			<section class="aboutWorks__intro">
+				<h2 class="title title-secondar">
+					Como funciona?
+				</h2>
+				<p>
+					Inscrevendo - se no Processo Seletivo Instituto Ser Tão Grande você
+					concorre a bolsas de estudos, mentorias e cursos gratuitos!
+				</p>
+				<h3 id="acesso" class="title-secondary">
+					Você terá acesso a:
+				</h3>
+				<section class="card-content card-wrapper">
+					<div class="card-content-inside card-content">
+						<div class="icon">
+							<img src="./img/icons/Mentoria.png" alt="Ícone de duas pessoas sincronizadas intelectualmente através da mentoria" width="106px" height="105px" />
+						</div>
+						<p>Programa de Mentoria em Diversas Áreas</p>
+					</div>
+					<div class="card-content-inside card-content">
+						<div class="icon">
+							<img src="./img/icons/Linguas.png" alt="Ícone de uma lista em ingles " width="106px" height="105px" />
+						</div>
+						<p>Curso de Idiomas Gratuito para sua Formação</p>
+					</div>
+					<div class="card-content-inside card-content">
+						<div class="icon">
+							<img src="./img/icons/Bolsas.png" width="106px" height="105px" alt="Ícone de um troféu por se graduar " />
+						</div>
+						<p>Bolsas de Estudo e Aulas Extras Contraturno</p>
+					</div>
 				</section>
-				<section class="box" aria-labelledby="Transparência">
-					<h2 id="Transparência" class="title-tertiary">
-						Transparência financeira
-					</h2>
-					<p>
-						O Instituto Ser Tão Grande é totalmente financiado a partir da
-						doação de colaboradores (principalmente pessoas físicas) que
-						compartilham dos nossos valores. Toda doação feita ao Instituto é
-						100% revertida em benefício dos jovens beneficiados. Devido à nossa
-						estrutura totalmente gerida por trabalho voluntário, não temos
-						nenhum custo administrativo.
-					</p>
-					<p>
-						Como contamos com uma rede de voluntários que conta com
-						profissionais de excelência que atuam em diferentes frentes,
-						conseguimos manter um alto nível de gestão e governança sem que isso
-						acarrete em ônus ao projeto ou a seus apoiadores, tanto doadores
-						quanto parceiros.
-					</p>
+			</section>
+			<section class="aboutWorks__modalities">
+				<h2 class="title">
+					É você quem escolhe como aproveitar esta oportunidade!
+				</h2>
+				<h3 class="title-secondary">
+					Nossas modalidades:
+				</h3>
+				<section class="Modalities--academic">
+					<h4 class="title-tertiary">
+						Modalidade apoio academico
+					</h4>
+					<section class="card-content card-wrapper">
+						<div class="card-content-inside card-content">
+							<div class="icon">
+								<img src="./img/icons/Escola-publica.png" width="106px" height="105px" alt="Ícone de um livro aberto com um lapís no meio" />
+							</div>
+							<p>
+								Jovens Aprovados continuam na escola pública da sua cidade
+							</p>
+						</div>
+						<div class="card-content-inside card-content">
+							<div class="icon">
+								<img src="./img/icons/Mentoria-online.png" width="106px" height="105px" alt="Ícone de um notebook com um balão de texto saindo da tela." />
+							</div>
+							<p>Mentoria Especializada na Área de Interesse</p>
+						</div>
+						<div class="card-content-inside card-content">
+							<div class="icon">
+								<img src="./img/icons/Linguas-online.png" width="106px" height="105px" alt="Ícone de um notebook com um chapéu de graduando na parte superior da tela." />
+							</div>
+							<p>Bolsa Integral para Curso de Inglês</p>
+						</div>
+						<div class="card-content-inside card-content">
+							<div class="icon">
+								<img src="./img/icons/Reforco.png" width="106px" height="105px" alt="Ícone de uma pessoa com uma engrenagem em seus pensamentos" />
+							</div>
+							<p>Curso contraturno de Desenvolvimento e Reforço</p>
+						</div>
+					</section>
 				</section>
-				<section class="box" aria-labelledby="Colaborações">
-					<h2 id="Colaborações" class="title-tertiary">
-						Colaborações corporativas
-					</h2>
-					<p>
-						O Instituto recebe apoios pontuais de pessoas jurídicas que
-						acreditam no projeto. Estamos no processo de certificação e
-						qualificação para oferecer incentivos fiscais para empresas
-						interessadas em colaborarem com o ISTG.
-					</p>
+				<section class="Modalities--academic">
+					<h4 class="title-tertiary">
+						Modalidade Escola Particular
+					</h4>
+					<section class="card-content card-wrapper">
+						<div class="card-content-inside card-content">
+							<div class="icon">
+								<img src="./img/icons/Bolsa-integral.png" width="106px" height="105px" alt="Ícone de um troféu de ganhador" />
+							</div>
+							<p>
+								Jovens Aprovados Recebem Bolsa Integral na Rede Particular
+							</p>
+						</div>
+						<div class="card-content-inside card-content">
+							<div class="icon">
+								<img src="./img/icons/Mentoria-Presencial.png" width="106px" height="105px" alt="Ícone de dois balões de texto" />
+							</div>
+							<p>Mentoria Especializada na Área de Interesse</p>
+						</div>
+						<div class="card-content-inside card-content">
+							<div class="icon">
+								<img src="./img/icons/Linguas-presenciall.png" width="106px" height="105px" alt="Ícone de uma pessoa com uma lampada na mente falando." />
+							</div>
+							<p>Bolsa Integral para Curso de Inglês</p>
+						</div>
+					</section>
 				</section>
+			</section>
+			<a class="globalButton" href="#">Quero participar!</a>
+		</article>
+
+		<article class="aboutCite container" aria-labelledby="Nosso-lema">
+			<section class="aboutCite__info">
+				<h1 class="title" id="Nosso-lema">
+					O que separa uma mente brilhante do sucesso é a falta de
+					oportunidade.
+				</h1>
+				<p>
+					Sua doação nos permite diminuir distâncias educacionais entre jovens
+					de baixa renda e estudantes com mesmo potencial acadêmico, mas sem
+					as mesmas oportunidades. Que tal mudar a vida de alguém hoje?
+				</p>
 			</section>
 		</article>
 
-		<section
-			class="aboutPartner container"
-			id="partner"
-			aria-label="Nossos parceiros"
-		>
-			<img src="./img/parceiros/Century.png" alt="Century" />
-			<img src="./img/parceiros/piva.png" alt="Piva" />
-			<img src="./img/parceiros/cope.png" alt="Cope" />
-			<img src="./img/parceiros/spaschiall.png" alt="São Paschoall" />
-			<img src="./img/parceiros/mindset.png" alt="Instituto Mindset" />
-			<img src="./img/parceiros/influx.png" alt="Influx English School" />
-			<img src="./img/parceiros/learntofly.png" alt="Learn To Fly" />
-			<img src="./img/parceiros/cna.png" alt="CNA" />
-			<img src="./img/parceiros/descomplica.png" alt="Descomplica" />
-			<img src="./img/parceiros/arena.png" alt="Arena Ensino Médio" />
-			<img
-				src="./img/parceiros/simbios.png"
-				alt="Simbios Ensino Médio, Enem e vestibulares"
-			/>
-			<img src="./img/parceiros/atrio1.png" alt="Colégio Atrio" />
-			<img src="./img/parceiros/imagine.png" alt="Imagine" />
-		</section>
-		<!-- <section class="aboutNotice"></section> -->
+		<section class="aboutDonate container" id="donation" aria-label="Como-ajudar">
+			<h2 class="title title-secondar">Como você pode ajudar?</h2>
 
-		<section class="aboutNotice" aria-label="ISTGnaWeb">
-			<h2 class="title container">#ISTGnaWeb</h2>
-			<section class="aboutNotice--container container">
-				<div class="aboutNotice--content">
-					<div class="icon">
-						<img src="./img/icons/newspaper.png" alt="Ícone de jornal" />
+			<input type="radio" name="slider" id="item-1" checked />
+			<input type="radio" name="slider" id="item-2" />
+			<input type="radio" name="slider" id="item-3" />
+			<input type="radio" name="slider" id="item-4" />
+			<input type="radio" name="slider" id="item-5" />
+
+			<div class="cards--donates">
+				<label class="card--donate" for="item-1" id="help-1">
+					<h3>Patrono da Educação</h3>
+					<p>
+						Com um compromisso de 12 meses, os Mantenedores financiam os
+						estudos de um Jovem Ser Tão Grande, com doações mensais
+						<strong>a partir de R$550</strong>
+					</p>
+
+					<div class="navigation">
+						<a href="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar">
+							<img src="./img/icons/arrow.png" title="Saiba Mais" width="50px" height="50px" alt="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar" />
+						</a>
 					</div>
-					<h2 class="title-tertiary">
-						Instituto Ser Tão Grande chega a Uberlândia e abre seleção gratuita
-						para apoiar jovens que estudam na rede pública
-					</h2>
-					<a
-						class="globalButton"
-						href="https://revistacultnet.com.br/2020/08/19/instituto-ser-tao-grande-chega-a-uberlandia-e-abre-selecao-gratuita-para-apoiar-jovens-que-estudam-na-rede-publica/"
-						>Ler notícia</a
-					>
-				</div>
-				<div class="aboutNotice--content">
-					<div class="icon">
-						<img src="./img/icons/newspaper.png" alt="Ícone de jornal" />
+				</label>
+
+				<label class="card--donate" for="item-2" id="help-2">
+					<h3>Doador Cerrado</h3>
+					<p>
+						Os Doadores Cerrado contribuem mensalmente com a nossa causa com
+						valores <strong>a partir de R$ 130</strong>. São extremamente
+						importante para o nosso planejamento ao longo prazo.
+					</p>
+
+					<div class="navigation">
+						<a href="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar">
+							<img src="./img/icons/arrow.png" title="Saiba Mais" width="50px" height="50px" alt="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar" />
+						</a>
 					</div>
-					<h2 class="title-tertiary">
-						Amigos se unem para pagar os estudos e oferecer assistência a jovens
-						de baixa renda, em Goiânia
-					</h2>
-					<a
-						class="globalButton"
-						href="https://g1.globo.com/go/goias/noticia/2020/01/16/amigos-se-unem-para-pagar-os-estudos-e-oferecer-assistencia-a-jovens-de-baixa-renda-em-goiania.ghtml"
-						>Ler notícia</a
-					>
-				</div>
-				<div class="aboutNotice--content">
-					<div class="icon">
-						<img src="./img/icons/newspaper.png" alt="Ícone de jornal" />
+				</label>
+
+				<label class="card--donate" for="item-3" id="help-3">
+					<h3>Doador Pontual</h3>
+					<p>
+						A qualquer momento você pode fazer
+						<strong>uma doação pontual</strong> para o Instituto Ser Tao
+						Grande. Toda a doação é muito importante para a continuidade do
+						nosso trabalho.
+					</p>
+
+					<div class="navigation">
+						<a href="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar">
+							<img src="./img/icons/arrow.png" title="Saiba Mais" width="50px" height="50px" alt="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar" />
+						</a>
 					</div>
-					<h2 class="title-tertiary">
-						Estudando em casa, alunos do ensino médio precisam readaptar rotinas
-						para não perder o ritmo
-					</h2>
-					<a
-						class="globalButton"
-						href="https://www.opopular.com.br/noticias/magazine/estudando-em-casa-alunos-do-ensino-m%C3%A9dio-precisam-readaptar-rotinas-para-n%C3%A3o-perder-o-ritmo-1.2025761"
-						>Ler notícia</a
-					>
-				</div>
-				<div class="aboutNotice--content">
-					<div class="icon">
-						<img src="./img/icons/newspaper.png" alt="Ícone de jornal" />
+				</label>
+
+				<label class="card--donate" for="item-4" id="help-4">
+					<h3>Mentoria</h3>
+					<p>
+						É especialista em algum ramo e tem condições de compartilhar esse
+						conhecimento? Você pode ser mentor individual de algum jovem e
+						acompanhá-lo no seu desenvolvimento pessoal e profissional. Caso
+						queira também pode fazer sessões de mentoria em grupo e pontuais,
+						em eventos e reuniões organizados pelo Instituto.
+					</p>
+					<div class="navigation">
+						<a href="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar">
+							<img src="./img/icons/arrow.png" width="50px" height="50px" title="Saiba Mais" alt="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar" />
+						</a>
 					</div>
-					<h2 class="title-tertiary">
-						Instituto Ser Tão Grande conecta pessoas que querem investir em
-						Educação
-					</h2>
-					<a
-						class="globalButton"
-						href="https://opopular.com.br/noticias/magazine/spot-1.145070/instituto-ser-t%C3%A3o-grande-conecta-pessoas-que-querem-investir-em-educa%C3%A7%C3%A3o-1.1855891"
-						>Ler notícia</a
-					>
-				</div>
-				<div class="aboutNotice--content">
-					<div class="icon">
-						<img src="./img/icons/newspaper.png" alt="Ícone de jornal" />
+				</label>
+
+				<label class="card--donate" for="item-5" id="help-5">
+					<h3>Voluntariado</h3>
+					<p>
+						Quer ajudar mas não tem recursos para doar ou disponibilidade de
+						ser um mentor? Você pode ajudar na divulgação do Instituto e
+						também nas atividades administrativas, como correção de provas e
+						análise de histórico escolar. Não contamos com equipe própria,
+						portanto toda ajuda comprometida é muito bem-vinda.
+					</p>
+
+					<div class="navigation">
+						<a href="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar">
+							<img src="./img/icons/arrow.png" title="Saiba Mais" width="50px" height="50px" alt="https://grifa.me/campanha/natal-instituto-ser-tao-grande/doar" />
+						</a>
 					</div>
-					<h2 class="title-tertiary">
-						Instituto oferece bolsas de estudos para estudantes de baixa renda
-					</h2>
-					<a
-						class="globalButton"
-						href="https://altairtavares.com.br/instituto-oferece-bolsas-de-estudos-para-estudantes-de-baixa-renda/"
-						>Ler notícia</a
-					>
-				</div>
-				<div class="aboutNotice--content">
-					<div class="icon">
-						<img src="./img/icons/newspaper.png" alt="Ícone de jornal" />
-					</div>
-					<h2 class="title-tertiary">
-						Jovem de 15 anos da capital já se beneficiou, mas meta da entidade é
-						de ampliar em 1000% os investimentos para o próximo ano
-					</h2>
-					<a
-						class="globalButton"
-						href="https://www.dm.com.br/ciencia/2019/07/instituto-ser-tao-grande-oferece-bolsas-de-estudos-para-estudantes-de-baixa-renda"
-						>Ler notícia</a
-					>
-				</div>
-				<div class="aboutNotice--content">
-					<div class="icon">
-						<img src="./img/icons/newspaper.png" alt="Ícone de jornal" />
-					</div>
-					<h2 class="title-tertiary">
-						Jovem de 15 anos da capital já se beneficiou, mas meta da entidade é
-						de ampliar em 1000% os investimentos para o próximo ano
-					</h2>
-					<a
-						class="globalButton"
-						href="https://www.dm.com.br/ciencia/2019/07/instituto-ser-tao-grande-oferece-bolsas-de-estudos-para-estudantes-de-baixa-renda"
-						>Ler notícia</a
-					>
-				</div>
-			</section>
+				</label>
+			</div>
 		</section>
 
-		<footer class="aboutEnd" aria-label="Nossas redes sociais">
-			<section class="aboutEnd--socialmedia">
-				<ul>
-					<li>
-						<a
-							href="https://www.facebook.com/institutosertaogrande"
-							target="_blank"
-							><img src="./img/icons/facebook.svg" alt="Facebook" />Facebook</a
-						>
-					</li>
-					<li>
-						<a
-							href="https://www.instagram.com/institutosertaogrande/"
-							target="_blank"
-							><img
-								src="./img/icons/instagram.svg"
-								alt="Instagram"
-							/>Instagram</a
-						>
-					</li>
-					<li>
-						<a
-							href="https://www.linkedin.com/company/instituto-ser-tao-grande"
-							target="_blank"
-							><img src="./img/icons/linkedin.svg" alt="Linkedin" />Linkedin</a
-						>
-					</li>
-				</ul>
-			</section>
-			<h2 class="title-tertiary">
-				Instituto Ser Tão Grande © Todos os direitos reservados 2019-2023
+		<section class="aboutNumbers container" aria-label="Nossos números">
+			<h2 class="title title-secondar" data-aos="fade-right" data-aos-duration="1400">
+				Somos
 			</h2>
-		</footer>
+			<div class="aboutNumbers__content" data-aos="fade-right" data-aos-duration="1500">
+				<div class="numbers">
+					<span class="contagem">40</span>
+					<h3>Jovens</h3>
+				</div>
 
-		<script src="./scripts/aos.js"></script>
-		<script src="./scripts/jquery.js"></script>
-		<script src="./scripts/jquery-old.js"></script>
-		<script src="./scripts/slick.js"></script>
-		<script src="./scripts/scripts.js"></script>
-		<script src="./scripts/modal.js"></script>
-	</body>
+				<div class="numbers">
+					<span class="contagem">+50</span>
+					<h3>Mentores</h3>
+				</div>
+
+				<div class="numbers">
+					<span class="contagem">80</span>
+					<h3>Voluntários</h3>
+				</div>
+			</div>
+		</section>
+		<!-- <section class="aboutQuestion"></section> video -->
+	</main>
+
+	<div class="modal--wrapper" aria-label="Inscreva - se em nossa newsletter">
+		<div class="modal__content">
+			<div class="modal--top">
+				<button class="closeModal">
+					<img class="iconClose" src="./img/icons/closeIcon.svg" alt="Fechar Pop-up" />
+				</button>
+			</div>
+			<form action="" class="modal--form">
+				<figure>
+					<img src="./img/icons/envelope.png" alt="ícone de e-mail" />
+
+					<figcaption>Inscreva-se</figcaption>
+
+					<p>Inscreva-se em nossa newsletter e fique atualizado!</p>
+				</figure>
+
+				<div class="group--field-btn">
+					<input type="email" name="email" id="email" placeholder="Seu E-mail" />
+
+					<button>Inscrever-se</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<article class="aboutGovernance container" id="governance" aria-label="Finanças">
+		<h2 class="title">Prestação de contas</h2>
+		<section class="aboutFinance" aria-label="Explicando nossas finanças">
+			<section class="box">
+				<p>
+					Desde sua concepção o Instituto Ser Tão Grande procura ter uma
+					governança de alto nível prestando contas a todos envolvidos e
+					interessados sobre evolução do projeto e no direcionamento dos
+					recursos. Queremos criar algo sólido e duradouro para os jovens,
+					doadores, voluntários e para a sociedade goiana. Para isso, ter
+					transparência é fundamental. Seguiremos as melhores práticas nesse
+					quesito.
+				</p>
+				<p>
+					Divulgamos um relatório trimestral com os principais acontecimentos
+					ocorridos nos últimos meses e com os planos para os meses que virão.
+					Adicionalmente, teremos um relatório anual com um nível mais
+					detalhado de informações, inclusive demonstrações financeiras.
+				</p>
+				<a class="globalButton" href="https://drive.google.com/file/d/1ktUAN3JzfAdjT0soBkrPYnHVnGMlv3Q8/view?usp=sharing" target="_blank">Relátorio 2020</a>
+				<a class="globalButton" href="https://drive.google.com/file/d/1JGKMfusWYr88parwOwgIsfUryFniAevN/view?usp=sharing" target="_blank">Relátorio 2021</a>
+			</section>
+			<section class="box" aria-labelledby="Transparência">
+				<h2 id="Transparência" class="title-tertiary">
+					Transparência financeira
+				</h2>
+				<p>
+					O Instituto Ser Tão Grande é totalmente financiado a partir da
+					doação de colaboradores (principalmente pessoas físicas) que
+					compartilham dos nossos valores. Toda doação feita ao Instituto é
+					100% revertida em benefício dos jovens beneficiados. Devido à nossa
+					estrutura totalmente gerida por trabalho voluntário, não temos
+					nenhum custo administrativo.
+				</p>
+				<p>
+					Como contamos com uma rede de voluntários que conta com
+					profissionais de excelência que atuam em diferentes frentes,
+					conseguimos manter um alto nível de gestão e governança sem que isso
+					acarrete em ônus ao projeto ou a seus apoiadores, tanto doadores
+					quanto parceiros.
+				</p>
+			</section>
+			<section class="box" aria-labelledby="Colaborações">
+				<h2 id="Colaborações" class="title-tertiary">
+					Colaborações corporativas
+				</h2>
+				<p>
+					O Instituto recebe apoios pontuais de pessoas jurídicas que
+					acreditam no projeto. Estamos no processo de certificação e
+					qualificação para oferecer incentivos fiscais para empresas
+					interessadas em colaborarem com o ISTG.
+				</p>
+			</section>
+		</section>
+	</article>
+
+	<section class="aboutPartner container" id="partner" aria-label="Nossos parceiros">
+		<img src="./img/parceiros/Century.png" width="125px" height="125px" alt="Century" />
+		<img src="./img/parceiros/piva.png" width="125px" height="125px" alt="Piva" />
+		<img src="./img/parceiros/cope.png" width="125px" height="125px" alt="Cope" />
+		<img src="./img/parceiros/spaschiall.png" width="125px" height="125px" alt="São Paschoall" />
+		<img src="./img/parceiros/mindset.png" width="125px" height="125px" alt="Instituto Mindset" />
+		<img src="./img/parceiros/influx.png" width="125px" height="125px" alt="Influx English School" />
+		<img src="./img/parceiros/learntofly.png" width="125px" height="125px" alt="Learn To Fly" />
+		<img src="./img/parceiros/cna.png" width="125px" height="125px" alt="CNA" />
+		<img src="./img/parceiros/descomplica.png" width="125px" height="125px" alt="Descomplica" />
+		<img src="./img/parceiros/arena.png" width="125px" height="125px" alt="Arena Ensino Médio" />
+		<img src="./img/parceiros/simbios.png" width="125px" height="125px" alt="Simbios Ensino Médio, Enem e vestibulares" />
+		<img src="./img/parceiros/atrio1.png" width="125px" height="125px" alt="Colégio Atrio" />
+		<img src="./img/parceiros/imagine.png" width="125px" height="125px" alt="Imagine" />
+	</section>
+	<!-- <section class="aboutNotice"></section> -->
+
+	<section class="aboutNotice" aria-label="ISTGnaWeb">
+		<h2 class="title container">#ISTGnaWeb</h2>
+		<section class="aboutNotice--container container">
+			<div class="aboutNotice--content">
+				<div class="icon">
+					<img src="./img/icons/newspaper.png" width="50px" height="50px" alt="Ícone de jornal" />
+				</div>
+				<h2 class="title-tertiary">
+					Instituto Ser Tão Grande chega a Uberlândia e abre seleção gratuita
+					para apoiar jovens que estudam na rede pública
+				</h2>
+				<a class="globalButton" href="https://revistacultnet.com.br/2020/08/19/instituto-ser-tao-grande-chega-a-uberlandia-e-abre-selecao-gratuita-para-apoiar-jovens-que-estudam-na-rede-publica/">Ler notícia</a>
+			</div>
+			<div class="aboutNotice--content">
+				<div class="icon">
+					<img src="./img/icons/newspaper.png" width="50px" height="50px" alt="Ícone de jornal" />
+				</div>
+				<h2 class="title-tertiary">
+					Amigos se unem para pagar os estudos e oferecer assistência a jovens
+					de baixa renda, em Goiânia
+				</h2>
+				<a class="globalButton" href="https://g1.globo.com/go/goias/noticia/2020/01/16/amigos-se-unem-para-pagar-os-estudos-e-oferecer-assistencia-a-jovens-de-baixa-renda-em-goiania.ghtml">Ler notícia</a>
+			</div>
+			<div class="aboutNotice--content">
+				<div class="icon">
+					<img src="./img/icons/newspaper.png" width="50px" height="50px" alt="Ícone de jornal" />
+				</div>
+				<h2 class="title-tertiary">
+					Estudando em casa, alunos do ensino médio precisam readaptar rotinas
+					para não perder o ritmo
+				</h2>
+				<a class="globalButton" href="https://www.opopular.com.br/noticias/magazine/estudando-em-casa-alunos-do-ensino-m%C3%A9dio-precisam-readaptar-rotinas-para-n%C3%A3o-perder-o-ritmo-1.2025761">Ler notícia</a>
+			</div>
+			<div class="aboutNotice--content">
+				<div class="icon">
+					<img src="./img/icons/newspaper.png" width="50px" height="50px" alt="Ícone de jornal" />
+				</div>
+				<h2 class="title-tertiary">
+					Instituto Ser Tão Grande conecta pessoas que querem investir em
+					Educação
+				</h2>
+				<a class="globalButton" href="https://opopular.com.br/noticias/magazine/spot-1.145070/instituto-ser-t%C3%A3o-grande-conecta-pessoas-que-querem-investir-em-educa%C3%A7%C3%A3o-1.1855891">Ler notícia</a>
+			</div>
+			<div class="aboutNotice--content">
+				<div class="icon">
+					<img src="./img/icons/newspaper.png" width="50px" height="50px" alt="Ícone de jornal" />
+				</div>
+				<h2 class="title-tertiary">
+					Instituto oferece bolsas de estudos para estudantes de baixa renda
+				</h2>
+				<a class="globalButton" href="https://altairtavares.com.br/instituto-oferece-bolsas-de-estudos-para-estudantes-de-baixa-renda/">Ler notícia</a>
+			</div>
+			<div class="aboutNotice--content">
+				<div class="icon">
+					<img src="./img/icons/newspaper.png" width="50px" height="50px" alt="Ícone de jornal" />
+				</div>
+				<h2 class="title-tertiary">
+					Jovem de 15 anos da capital já se beneficiou, mas meta da entidade é
+					de ampliar em 1000% os investimentos para o próximo ano
+				</h2>
+				<a class="globalButton" href="https://www.dm.com.br/ciencia/2019/07/instituto-ser-tao-grande-oferece-bolsas-de-estudos-para-estudantes-de-baixa-renda">Ler notícia</a>
+			</div>
+			<div class="aboutNotice--content">
+				<div class="icon">
+					<img src="./img/icons/newspaper.png" width="50px" height="50px" alt="Ícone de jornal" />
+				</div>
+				<h2 class="title-tertiary">
+					Instituto Ser Tão Grande oferece bolsas de estudos para estudantes de baixa renda</h2>
+				<a class="globalButton" href="https://www.dm.com.br/ciencia/2019/07/instituto-ser-tao-grande-oferece-bolsas-de-estudos-para-estudantes-de-baixa-renda">Ler notícia</a>
+			</div>
+		</section>
+	</section>
+
+	<footer class="aboutEnd" aria-label="Nossas redes sociais">
+		<section class="aboutEnd--socialmedia">
+			<ul>
+				<li>
+					<a href="https://www.facebook.com/institutosertaogrande" target="_blank"><img src="./img/icons/facebook.svg" alt="Facebook" /></a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/institutosertaogrande/" target="_blank"><img src="./img/icons/instagram.svg" alt="Instagram" /></a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/company/instituto-ser-tao-grande" target="_blank"><img src="./img/icons/linkedin.svg" alt="Linkedin" /></a>
+				</li>
+			</ul>
+		</section>
+		<h2 class="title-tertiary">
+			Instituto Ser Tão Grande © Todos os direitos reservados 2019-2023
+		</h2>
+	</footer>
+
+	<script src="./scripts/jquery.js"></script>
+	<script src="./scripts/jquery-old.js"></script>
+	<script src="./scripts/slick.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="./scripts/scripts.js"></script>
+	<!-- <script src="./scripts/modal.js"></script> -->
+</body>
+
 </html>

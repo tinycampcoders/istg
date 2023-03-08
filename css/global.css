@@ -18,7 +18,3 @@
 
 @import "./utils/slick.css";
 @import "./utils/slick-theme.css";
-
-/* Import Animations */
-
-@import "./utils/aos.css";

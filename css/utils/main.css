@@ -149,6 +149,7 @@
 .aboutDonate {
   width: 100%;
   transform-style: preserve-3d;
+  margin-bottom: 40px;
 }
 
 .aboutDonate h2 {
@@ -268,11 +269,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 600px;
+  min-height: 450px;
 }
 
 .aboutNumbers__content {
-  width: 66%;
+  width: 80%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -318,8 +319,14 @@
   background-color: #bbb;
   text-align: justify;
   border-radius: 26px;
+  display: flex;
+  flex-direction: column;
   gap: 20px;
   padding: 20px;
+}
+
+.box a {
+  align-self: flex-start;
 }
 
 .aboutPartner {
@@ -379,11 +386,11 @@
 }
 
 .aboutNotice--content {
-  height: 400px;
+  height: 450px;
   flex-direction: column;
-  padding: 20px;
+  padding: 40px;
   background-color: #ccc;
-  color: black;
+  color: #000;
   border-radius: 26px;
   justify-content: space-around;
 }
