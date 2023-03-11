@@ -6,8 +6,8 @@
   --color-secondary: #000;
   --color-tertiary: #ddd;
   --color-purple: #9400d3;
-  --color-button: #42be42;
-  --color-button-hover: #28a428;
+  --color-button: #21a321;
+  --color-button-hover: #138013;
 
   /* Font Style */
   --font-poppins: "Poppins", sans-serif;
@@ -32,21 +32,22 @@
   color: var(--color-primary);
   font-weight: var(--font-bd);
   text-transform: var(--text-title);
-  background-color: #ffa500;
+  background-color: #ff5e00;
   margin: 20px;
   transition: 1s;
 }
 
+.globalButton:hover {
+  background-color: #ff7300bb;
+}
+
 p {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 strong {
   font-weight: 800;
-}
-
-.globalButton:hover {
-  background-color: var(--color-button-hover);
 }
 
 .container {
@@ -59,24 +60,28 @@ strong {
   margin-bottom: 24px;
   text-transform: var(--text-title);
   font-size: var(--font-title);
+  text-align: center;
 }
 
 .title-secondary {
   font-size: var(--font-title-secondary);
   text-transform: var(--text-title);
+  text-align: center;
 }
 
 .title-tertiary {
   font-size: var(--font-title-tertiary);
   text-transform: uppercase;
   font-weight: var(--font-md);
+  text-align: center;
 }
 
 .grid-layout {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 650px));
+  place-items: center;
   gap: 20px;
 }
 

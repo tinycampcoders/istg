@@ -24,7 +24,7 @@
   flex-direction: column;
   gap: 20px;
   padding: 20px;
-  text-align: justify;
+  text-align: center;
   background-color: #eee;
   border-radius: 10px;
 }
@@ -69,13 +69,16 @@
 
 .aboutPilars--card p {
   color: var(--color-primary);
-  text-align: justify;
+}
+
+.aboutPrinciples {
+  flex-direction: column;
 }
 
 .aboutPrinciples--card {
   flex-direction: column;
-  padding: 40px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   border-radius: 26px;
   text-align: center;
   color: var(--color-secondary);
@@ -139,7 +142,6 @@
 .aboutCite__info {
   width: 84ch;
   padding: 20px;
-  text-align: justify;
   background-color: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(16px);
   border-radius: 26px;
@@ -260,10 +262,6 @@
   cursor: auto;
 }
 
-.aboutNumbers h2 {
-  align-self: flex-start;
-}
-
 .aboutNumbers {
   display: flex;
   flex-direction: column;
@@ -316,8 +314,7 @@
   width: 100%;
   min-width: 280px;
   max-width: 400px;
-  background-color: #bbb;
-  text-align: justify;
+  background-color: var(--color-tertiary);
   border-radius: 26px;
   display: flex;
   flex-direction: column;
@@ -360,7 +357,7 @@
 
 .slick-prev:before,
 .slick-next:before {
-  color: #000;
+  color: var(--color-secondary);
 }
 
 .slick-slide {
@@ -377,7 +374,7 @@
 }
 
 .aboutNotice {
-  background-color: #000;
+  background-color: var(--color-secondary);
 }
 
 .aboutNotice .title {
@@ -389,14 +386,15 @@
   height: 450px;
   flex-direction: column;
   padding: 40px;
-  background-color: #ccc;
-  color: #000;
+  background-color: var(--color-tertiary);
+  color: var(--color-secondary);
   border-radius: 26px;
   justify-content: space-around;
+  gap: 40px;
 }
 
 .aboutNotice--content .globalButton {
-  align-self: flex-start;
+  align-self: center;
 }
 
 .aboutEnd {
@@ -406,8 +404,8 @@
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
-  background-color: #000;
-  color: #fff;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 .aboutEnd--socialmedia ul {
