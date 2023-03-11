@@ -131,7 +131,7 @@
   align-items: center;
   justify-content: center;
   min-height: 600px;
-  background-image: url("../../img/Desktop/cite.avif");
+  background-image: url("./../../img/Desktop/cite.avif");
   background-position: center;
   background-size: cover;
 }
