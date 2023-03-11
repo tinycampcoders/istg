@@ -41,7 +41,6 @@
 
 .aboutPilars h2 {
   color: var(--color-primary);
-  align-self: flex-start;
 }
 
 .aboutPilars--card {
@@ -49,63 +48,65 @@
   flex-direction: column;
   gap: 20px;
   padding: 30px;
-  background-color: #009000;
+  color: var(--color-secondary);
+  background-color: #9db525;
   border-radius: 26px;
 }
 
 .aboutPilars--card:nth-of-type(2) {
-  background-color: #ffae00;
-  border-radius: 26px;
+  background-color: #f79c1d;
 }
 
 .aboutPilars--card:last-of-type {
-  background-color: #0000ff;
-  border-radius: 26px;
+  background-color: #56c4cf;
 }
 
 .aboutPilars--card h3 {
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .aboutPilars--card p {
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .aboutPrinciples {
   flex-direction: column;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .aboutPrinciples--card {
   flex-direction: column;
-  width: 350px;
+  width: 300px;
   height: 350px;
   border-radius: 26px;
   text-align: center;
   color: var(--color-secondary);
+  padding: 20px;
 }
 
 .aboutPrinciples--card:nth-of-type(1) {
-  background-color: #ff6c0d;
+  background-color: #f79c10;
 }
 
 .aboutPrinciples--card:nth-of-type(2) {
-  background-color: #d59c4e;
+  background-color: #b46914;
 }
 
 .aboutPrinciples--card:nth-of-type(3) {
-  background-color: #00b6e4;
+  background-color: #56c4cf;
 }
 
 .aboutPrinciples--card:nth-of-type(4) {
-  background-color: #ffce00;
+  background-color: #c4a64a;
 }
 
 .aboutPrinciples--card:nth-of-type(5) {
-  background-color: #ff4432;
+  background-color: #7d4821;
 }
 
 .aboutPrinciples--card:nth-of-type(6) {
-  background-color: #00aba0;
+  background-color: #a8b076;
 }
 
 .aboutWorks {
@@ -152,10 +153,6 @@
   width: 100%;
   transform-style: preserve-3d;
   margin-bottom: 40px;
-}
-
-.aboutDonate h2 {
-  align-self: flex-start;
 }
 
 .aboutDonate input[type="radio"] {

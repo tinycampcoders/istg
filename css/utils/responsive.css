@@ -116,6 +116,10 @@
     height: 250px;
   }
 
+  .aboutPrinciples--card {
+    width: 300px;
+  }
+
   .aboutCite {
     background-image: url("./../../img/Mobile/citemobile.avif");
   }

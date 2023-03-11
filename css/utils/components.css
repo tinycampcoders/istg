@@ -5,8 +5,8 @@
   --color-primary: #fff;
   --color-secondary: #000;
   --color-tertiary: #ddd;
-  --color-purple: #9400d3;
-  --color-button: #21a321;
+  --color-purple: #cfa64a;
+  --color-button: #9db525;
   --color-button-hover: #138013;
 
   /* Font Style */
@@ -19,8 +19,8 @@
   --font-title: min(2.5rem, 6vw);
   --text-title: uppercase;
 
-  --font-title-secondary: min(1.5rem, 5vw);
-  --font-title-tertiary: min(1.25rem, 4vw);
+  --font-title-secondary: min(1.6rem, 5vw);
+  --font-title-tertiary: min(1.4rem, 4vw);
 }
 
 /* Classes de uso geral */
@@ -32,9 +32,11 @@
   color: var(--color-primary);
   font-weight: var(--font-bd);
   text-transform: var(--text-title);
-  background-color: #ff5e00;
+  background-color: #f73c10;
   margin: 20px;
   transition: 1s;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
 
 .globalButton:hover {
@@ -43,10 +45,12 @@
 
 p {
   font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   text-align: center;
 }
 
 strong {
+  font-family: "Montserrat", sans-serif;
   font-weight: 800;
 }
 
@@ -72,8 +76,12 @@ strong {
 .title-tertiary {
   font-size: var(--font-title-tertiary);
   text-transform: uppercase;
-  font-weight: var(--font-md);
+  font-weight: var(--font-b);
   text-align: center;
+}
+
+.title-modalities {
+  margin-top: 20px;
 }
 
 .grid-layout {
